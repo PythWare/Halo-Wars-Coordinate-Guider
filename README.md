@@ -7,7 +7,7 @@ Python 3 and the files included with the release, this ia a lightweight GUI tool
 
 What this tool does:
 
-Ever got tired of trying to guess where something will spawn/appear on the map? Well this tool will help you. It displays the map images and supports manually typing coordinates or clicking anywhere on the map to get coordinates.
+Ever got tired of trying to guess where something will spawn/appear on the map? Well this tool will help you. It displays the map images (all 35 maps, skirmish and campaign maps incase you want to mod campaign too) and supports manually typing coordinates or clicking anywhere on the map to get coordinates.
 
 What this essentially does is serve as a visual guide so you don't have to guess for where something will appear in the game, you won't have to constantly open and close the game for every small coordinate adjustment like you used to. Instead, the Coordinate Guider will show you the coordinates needed for what you want. Want to move a base, creep, etc location or just want to see where things are positioned like objects, troops, etc so you can decide where you want to place your stuff? Just click on the map or type coordinates and use those coordinates it displays for the SCN files.
 
