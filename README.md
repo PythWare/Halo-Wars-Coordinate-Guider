@@ -17,6 +17,9 @@ Coordinate Guider Image:
 
 <img width="1027" height="920" alt="y8" src="https://github.com/user-attachments/assets/5bf35398-0f7d-4ff2-ab54-6979da594ced" />
 
+Coordinate Guider Image With Grid Enabled:
+<img width="995" height="889" alt="y9" src="https://github.com/user-attachments/assets/be77b230-ddb0-4534-b10c-5fc2d63fb335" />
+
 Plans:
 
 I am planning to support Halo Wars 2 as well but this repository is just for Halo Wars 1.
