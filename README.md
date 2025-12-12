@@ -3,7 +3,7 @@ A GUI Visual Guide Tool for displaying coordinates on map images to help with pl
 
 What's needed to use this tool:
 
-Python 3 and the files included with the release, this ia a lightweight GUI tool.
+Python 3 and the files included with the release, this is a lightweight GUI tool.
 
 What this tool does:
 
