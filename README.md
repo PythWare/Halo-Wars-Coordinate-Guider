@@ -11,7 +11,7 @@ Ever got tired of trying to guess where something will spawn/appear on the map? 
 
 What this essentially does is serve as a visual guide so you don't have to guess for where something will appear in the game, you won't have to constantly open and close the game for every small coordinate adjustment like you used to. Instead, the Coordinate Guider will show you the coordinates needed for what you want. Want to move a base, creep, etc location or just want to see where things are positioned like objects, troops, etc so you can decide where you want to place your stuff? Just click on the map or type coordinates and use those coordinates it displays for the SCN files.
 
-Other features are custom markers for various types, the ability to save/load your markings so you don't lose your progress, name your markers, optional grid overlay, clicking a marker in the list takes you to the position of the marker, etc.
+Other features are custom markers for various types, the ability to save/load your markings so you don't lose your progress, name your markers, optional grid overlay, clicking a marker in the list takes you to the position of the marker, scrollbars to move vertically/horizontally when dealing with larger images, etc.
 
 Coordinate Guider Image:
 
