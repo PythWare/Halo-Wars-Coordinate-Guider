@@ -40,7 +40,7 @@ Coordinate Guider with filters:
 
 Coordinate Guider with boundaries:
 
-<img width="1757" height="764" alt="y17" src="https://github.com/user-attachments/assets/6b7b5d5b-3386-4198-b03d-08e749b3273a" />
+<img width="1765" height="919" alt="y18" src="https://github.com/user-attachments/assets/654a2bb0-5e75-41c9-9229-a7b988f7a1dc" />
 
 Coordinate Guider with changeable boundary color:
 
