@@ -13,39 +13,54 @@ Ever got tired of trying to guess where something will spawn/appear on the map? 
 
 What this essentially does is serve as a visual guide so you don't have to guess for where something will appear in the game, you won't have to constantly open and close the game for every small coordinate adjustment like you used to. Instead, the Coordinate Guider will show you the coordinates needed for what you want. Want to move a base, creep, etc location or just want to see where things are positioned like objects, troops, etc so you can decide where you want to place your stuff? Just click on the map or type coordinates and use those coordinates it displays for the SCN files.
 
-Other features are custom markers for various types, Auto Populate (it reads the .SCN file and automaticaly marks on the map everything listed in the SCN file that is an object, troop, building, wall, etc that uses coordinates), the ability to save/load your markings so you don't lose your progress, name your markers, optional grid overlay, clicking a marker in the list takes you to the position of the marker, scrollbars to move vertically/horizontally when dealing with larger images, boundary support, filtering marker types to display, map legend, zoom in/out (especially useful if you want to see the exact position of a marker when clicking on the marker listbox, brings you in close nicely), delete markers from the listbox, measure distance between markers, etc. 
+Other features are custom markers for various types, Auto Populate (it reads the .SCN file and automatically marks on the map everything listed in the SCN file that is an object, troop, building, wall, etc that uses coordinates), the ability to save/load your markings so you don't lose your progress, name your markers, optional grid overlay, clicking a marker in the list takes you to the position of the marker, scrollbars to move vertically/horizontally when dealing with larger images, boundary support, filtering marker types to display, map legend, zoom in/out (especially useful if you want to see the exact position of a marker when clicking on the marker listbox, brings you in close nicely), delete markers from the listbox, measure distance between markers, moving a marker on the map updates its coordinates for you automatically, you can now group markers into named groups, search bar for filtering quickly through markers list, etc.
+
+For SCN Editor it loads entries from a SCN file (specifically Objects and PlayerPlacement sections since the tool is primarily a visual guide), a search bar for quick filtering, editing entries, adding new markers to the SCN file for you (meaning you don't have to manually type it out in the xml file), batch syncing (adds markers not currently within the Objects section of the SCN file and updates all entries for Objects/PlayerPlacement with the current coordinates they have in the SCN Coordinate Guider), save changes, etc. So if you had like, 1,000 new markers added to the map image the sync button will add them all and when you click save all of them are added to the SCN file. This saves so much time because that saves you from having to type thousands of lines manually.
 
 Controls:
 
 Holding the middle mouse button or holding right click also enables moving around the image if you don't want to use scrollbars. To delete several marks hold the shift button and select the markers, or just for individual marker deleting select and click Delete button on the GUI. To measure distance between markers select 1 marker and then press ctrl + click on the other marker you want to measure.
 
-Coordinate Guider Image with grid overlay disabled and using custom named markers:
+Coordinate Guider Image with grid overlay enabled and using custom named markers:
 
-<img width="1667" height="922" alt="y14" src="https://github.com/user-attachments/assets/4bfdc986-d723-4ad3-9ec5-11d903430be1" />
+<img width="1759" height="917" alt="y25" src="https://github.com/user-attachments/assets/9d30b132-6c5c-4e48-8f71-1513662453a9" />
 
-Coordinate Guider Image With Grid Enabled:
 
-<img width="1661" height="916" alt="y17" src="https://github.com/user-attachments/assets/c2cbcb36-8c3a-4075-a5ec-1bbbd0bbb979" />
+Coordinate Guider Image With Grid Disabled:
+
+<img width="1762" height="889" alt="y14" src="https://github.com/user-attachments/assets/170cec26-0a98-4617-947e-a53305ef72cf" />
 
 Coordinate Guider with Auto Populate:
 
-<img width="1657" height="625" alt="y15" src="https://github.com/user-attachments/assets/a89e0096-c1e9-4981-9780-8159eb4972df" />
+<img width="1753" height="761" alt="y16" src="https://github.com/user-attachments/assets/1ae5fe2b-ea24-44a3-b35e-198f7414ec0c" />
 
 Coordinate Guider with filters:
 
-<img width="1661" height="631" alt="y16" src="https://github.com/user-attachments/assets/b8b2dbcb-5463-4636-ac5f-bcb51a08a972" />
+<img width="1757" height="764" alt="y17" src="https://github.com/user-attachments/assets/3635a001-5d35-40bb-99d2-09a02b19af16" />
 
 Coordinate Guider with boundaries:
 
-<img width="1659" height="920" alt="y18" src="https://github.com/user-attachments/assets/802eef38-910c-405f-9ca3-bd8bf87d72d1" />
+<img width="1757" height="764" alt="y17" src="https://github.com/user-attachments/assets/6b7b5d5b-3386-4198-b03d-08e749b3273a" />
 
 Coordinate Guider with changeable boundary color:
 
-<img width="1657" height="916" alt="y19" src="https://github.com/user-attachments/assets/ed52162d-b00b-46ea-bbe4-ce59c24ddc32" />
+<img width="1768" height="919" alt="y19" src="https://github.com/user-attachments/assets/53083d8b-ef07-4dd8-88ff-79be8b84bbe3" />
 
 Coordinate Guider measuring distance between markers:
 
-<img width="1661" height="756" alt="y20" src="https://github.com/user-attachments/assets/25b34c56-205b-4e29-ba83-1ab9b86d6f56" />
+<img width="1754" height="745" alt="y21" src="https://github.com/user-attachments/assets/b9a28979-1755-463b-90f0-4f5585b4c79a" />
+
+Coordinate Guider grouping:
+
+<img width="1763" height="920" alt="y22" src="https://github.com/user-attachments/assets/a1400998-0825-459c-8099-7666286ee071" />
+
+SCN Editor Objects Example:
+
+<img width="1763" height="920" alt="y23" src="https://github.com/user-attachments/assets/d595e6f7-5cb2-4590-a5c0-c703c8e08466" />
+
+SCN Editor PlayerPlacement Example:
+
+<img width="1770" height="916" alt="y24" src="https://github.com/user-attachments/assets/88179d59-a7ef-4d4c-8ab4-ed19b123a20f" />
 
 Extra Info:
 
