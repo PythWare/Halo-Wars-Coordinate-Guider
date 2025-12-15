@@ -15,7 +15,7 @@ What this essentially does is serve as a visual guide so you don't have to guess
 
 Other features are custom markers for various types, Auto Populate (it reads the .SCN file and automatically marks on the map everything listed in the SCN file that is an object, troop, building, wall, etc that uses coordinates), the ability to save/load your markings so you don't lose your progress, name your markers, optional grid overlay, clicking a marker in the list takes you to the position of the marker, scrollbars to move vertically/horizontally when dealing with larger images, boundary support, filtering marker types to display, map legend, zoom in/out (especially useful if you want to see the exact position of a marker when clicking on the marker listbox, brings you in close nicely), delete markers from the listbox, measure distance between markers, moving a marker on the map updates its coordinates for you automatically, you can now group markers into named groups, search bar for filtering quickly through markers list, etc.
 
-For SCN Editor it loads entries from a SCN file (specifically Objects and PlayerPlacement sections since the tool is primarily a visual guide), a search bar for quick filtering, editing entries, adding new markers to the SCN file for you (meaning you don't have to manually type it out in the xml file), batch syncing (adds markers not currently within the Objects section of the SCN file and updates all entries for Objects/PlayerPlacement with the current coordinates they have in the SCN Coordinate Guider), save changes, etc. So if you had like, 1,000 new markers added to the map image the sync button will add them all and when you click save all of them are added to the SCN file. This saves so much time because that saves you from having to type thousands of lines manually.
+For SCN Editor it loads entries from a SCN file (specifically Objects and PlayerPlacement sections since the tool is primarily a visual guide), a search bar for quick filtering, editing entries, removing entries, clicking an entry takes you to the position of the marker on the map, adding new markers to the SCN file for you (meaning you don't have to manually type it out in the xml file), batch syncing (adds markers not currently within the Objects section of the SCN file and updates all entries for Objects/PlayerPlacement with the current coordinates they have in the SCN Coordinate Guider), save changes, etc. So if you had like, 1,000 new markers added to the map image the sync button will add them all and when you click save all of them are added to the SCN file. This saves so much time because that saves you from having to type thousands of lines manually.
 
 Controls:
 
@@ -24,7 +24,6 @@ Holding the middle mouse button or holding right click also enables moving aroun
 Coordinate Guider Image with grid overlay enabled and using custom named markers:
 
 <img width="1759" height="917" alt="y25" src="https://github.com/user-attachments/assets/9d30b132-6c5c-4e48-8f71-1513662453a9" />
-
 
 Coordinate Guider Image With Grid Disabled:
 
@@ -61,6 +60,10 @@ SCN Editor Objects Example:
 SCN Editor PlayerPlacement Example:
 
 <img width="1770" height="916" alt="y24" src="https://github.com/user-attachments/assets/88179d59-a7ef-4d4c-8ab4-ed19b123a20f" />
+
+Ingame after using SCN Editor Example:
+
+<img width="1197" height="672" alt="y26" src="https://github.com/user-attachments/assets/d20283fb-cd2e-48a6-afc3-d9dafbc12a82" />
 
 Extra Info:
 
