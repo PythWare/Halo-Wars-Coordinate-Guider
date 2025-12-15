@@ -7,6 +7,8 @@ Python 3 and the files included with the release, this is a lightweight GUI tool
 
 Also make sure to extract the files from scn.zip with either windows, 7zip, etc. It includes the SCN folder which has .SCN files needed for Auto Populating usage. I had to upload it as a zip due to the size.
 
+I recommend keeping a backup of the scn files.
+
 What this tool does:
 
 Ever got tired of trying to guess where something will spawn/appear on the map? Well this tool will help you. It displays the map images (all 35 Halo Wars 1 maps, skirmish and campaign maps incase you want to mod campaign too) and supports manually typing coordinates or clicking anywhere on the map to get coordinates.
