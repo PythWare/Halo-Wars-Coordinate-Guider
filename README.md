@@ -1,5 +1,5 @@
 # Halo-Wars-Coordinate-Guider
-A GUI Visual Guide Tool for displaying coordinates on map images to help with placing/moving objects, buildings, troops, NPCS, etc stuff.
+A GUI Visual Guide Tool for displaying coordinates on map images to help with placing/moving objects, buildings, troops, NPCS, etc stuff. It's a big Guider/Editor with nearly 4,000 lines of pure Python code, no dependencies beyond needing Python installed.
 
 What's needed to use this tool:
 
