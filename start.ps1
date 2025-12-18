@@ -14,9 +14,9 @@ try {
     exit 1
 }
 
-# Check if Halo_Wars_XY_Guider_3.6.12.pyw exists
-if (-Not (Test-Path "Halo_Wars_XY_Guider_3.6.12.pyw")) {
-    Write-Host "ERROR: Halo_Wars_XY_Guider_3.6.12.pyw not found in current directory" -ForegroundColor Red
+# Check if Halo_Wars_Coordinate_Guider.pyw exists
+if (-Not (Test-Path "Halo_Wars_Coordinate_Guider.pyw")) {
+    Write-Host "ERROR: Halo_Wars_Coordinate_Guider.pyw not found in current directory" -ForegroundColor Red
     Write-Host "Please run this script from the project root directory" -ForegroundColor Yellow
     Read-Host "Press Enter to exit"
     exit 1
@@ -35,8 +35,8 @@ if (-Not (Test-Path "scn")) {
 
 # Launch the application using pythonw (no console window)
 Write-Host "Launching application..." -ForegroundColor Green
-Start-Process pythonw -ArgumentList "Halo_Wars_XY_Guider_3.6.12.pyw" -NoNewWindow
+Start-Process pythonw -ArgumentList "Halo_Wars_Coordinate_Guider.pyw" -NoNewWindow
 
 Write-Host "Application started successfully!" -ForegroundColor Green
-Write-Host "If the application doesn't appear, try running: python Halo_Wars_XY_Guider_3.6.12.pyw" -ForegroundColor Yellow
+Write-Host "If the application doesn't appear, try running: python Halo_Wars_Coordinate_Guider.pyw" -ForegroundColor Yellow
 

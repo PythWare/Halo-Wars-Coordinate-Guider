@@ -14,8 +14,8 @@ echo Found Python:
 call python --version
 echo.
 
-REM Check if Halo_Wars_XY_Guider_3.6.12.pyw exists
-if not exist "Halo_Wars_XY_Guider_3.6.12.pyw" goto :nofile
+REM Check if Halo_Wars_Coordinate_Guider.pyw exists
+if not exist "Halo_Wars_Coordinate_Guider.pyw" goto :nofile
 
 REM Check if maps directory exists
 if not exist "maps" (
@@ -32,10 +32,10 @@ if not exist "scn" (
 
 REM Launch the application
 echo Launching application...
-start "" "Halo_Wars_XY_Guider_3.6.12.pyw"
+start "" "Halo_Wars_Coordinate_Guider.pyw"
 
 echo Application started successfully!
-echo If the application doesn't appear, try running: python Halo_Wars_XY_Guider_3.6.12.pyw
+echo If the application doesn't appear, try running: python Halo_Wars_Coordinate_Guider.pyw
 echo.
 timeout /t 3 >nul
 goto :eof
@@ -48,7 +48,7 @@ pause
 exit /b 1
 
 :nofile
-echo ERROR: Halo_Wars_XY_Guider_3.6.12.pyw not found in current directory
+echo ERROR: Halo_Wars_Coordinate_Guider.pyw not found in current directory
 echo Please run this script from the project root directory
 echo.
 pause
