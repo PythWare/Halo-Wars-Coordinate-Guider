@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">The_Docks</Terrain>
+	<Sky />
+	<TerrainEnv>environment\sky\sw_interior_sky_en.ddx</TerrainEnv>
+	<Lightset>The_Docks</Lightset>
+	<Pathing>The_Docks</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Neutral</Team>
+			<Team ID="2">Neutral</Team>
+			<Team ID="3">Neutral</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Grouped" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="1" Position="144.175995,1.54130006,133.608307" Forward="-1,0,-0.00700000022" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="1" Position="302.741089,1.54130006,131.964096" Forward="-1,0,0.00240000011" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="2" Position="722.676086,1.30239999,142.502396" Forward="-1,0,-0.00620000018" DefaultCamera="true" CameraYaw="300" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="2" Position="877.094421,1.30250001,130.816299" Forward="-1,0,0.00710000005" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="5" Number="5" Position="643.865173,0,578.831787" Forward="0,0,1" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="Covenant" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player3" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="Covenant" Color="3" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player4" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="Covenant" Color="4" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Creeps" LocalisedDisplayName="25966,Rebels" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Objectives>
+		<MaxObjectiveID>-1</MaxObjectiveID>
+	</Objectives>
+	<Minimap>
+		<MinimapTexture />
+	</Minimap>
+	<BuildingTextureIndexUNSC>5</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>5</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres>
+			<Sphere ID="423" Name="DesignSphere423" Position="246.428497,1.30289996,915.874084" Radius="60">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="466" Name="DesignSphere466" Position="115.249901,1.30250001,697.75177" Radius="60">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="467" Name="DesignSphere467" Position="726.26593,1.23580003,871.49292" Radius="60">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="469" Name="DesignSphere469" Position="909.912781,1.30250001,704.919678" Radius="65">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+		</Spheres>
+		<Lines>
+			<Lines ID="1053" Name="DesignPath1053" Position="124.412102,37.4336014,1019.73297">
+				<Data>
+					<Type>CameraBoundary-Hover</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>129.7872,27.5552,919.3828|169.7639,23.5668,882.6370|115.7223,25.6477,825.2268|86.4010,35.1485,828.3656|53.1152,32.6025,853.5761|33.7858,33.1160,855.9438|14.4063,34.1917,863.7453|2.0159,31.7213,868.8582|1.3770,34.3210,899.9758|2.2171,34.5278,1022.5230|117.4352,38.9557,1023.3740|124.4121,37.4336,1019.7330</Points>
+			</Lines>
+		</Lines>
+	</DesignObjects>
+	<ObjectGroups>
+		<ObjectGroup ID="1" Name="Foliage" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="2" Name="Buildings" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="3" Name="Misc" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="4" Name="Walls" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="5" Name="test bases" Visible="true" Locked="false" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="6" Name="docks parts" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+	</ObjectGroups>
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="1157" TintValue="1" EditorName="cpgn_utility_airBlock_01_1157" Position="535.157715,56.7088013,217.452698" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1160" TintValue="1" EditorName="cpgn_utility_airBlock_01_1160" Position="297.988708,46.3114014,689.896484" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1166" TintValue="1" EditorName="cpgn_utility_airBlock_01_1166" Position="512.260803,66.6530991,908.375793" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1154" TintValue="1" EditorName="cpgn_utility_airBlock_01_1154" Position="537.208679,54.1837997,294.714294" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1155" TintValue="1" EditorName="cpgn_utility_airBlock_01_1155" Position="487.291901,54.1114998,294.460388" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1162" TintValue="1" EditorName="cpgn_utility_airBlock_01_1162" Position="512.493713,66.7136002,880.706482" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1161" TintValue="1" EditorName="cpgn_utility_airBlock_01_1161" Position="512.266479,50.3571014,752.729675" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1156" TintValue="1" EditorName="cpgn_utility_airBlock_01_1156" Position="538.948792,55.7193985,183.525696" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1159" TintValue="1" EditorName="cpgn_utility_airBlock_01_1159" Position="484.799988,51.1110001,218.221893" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1158" TintValue="1" EditorName="cpgn_utility_airBlock_01_1158" Position="486.971008,52.6523018,183.331299" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" ID="1143" TintValue="1" EditorName="cpgn_utility_airBlock_02_1143" Position="783.951782,16.5263996,692.277527" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_02</Object>
+		<Object IsSquad="false" Player="0" ID="1145" TintValue="1" EditorName="cpgn_utility_airBlock_03_1145" Position="716.054321,16.0125999,632.114807" Forward="-0.751299977,0,0.660000026" Right="0.660000026,0,0.751299977" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" ID="1163" TintValue="1" EditorName="cpgn_utility_airBlock_03_1163" Position="473.162415,54.6730995,435.928314" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" ID="1144" TintValue="1" EditorName="cpgn_utility_airBlock_03_1144" Position="124.698402,13.2024002,326.576385" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" ID="1164" TintValue="1" EditorName="cpgn_utility_airBlock_03_1164" Position="550.99408,58.0217018,438.997803" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" ID="1039" TintValue="1" EditorName="env_arcadia_drain_06_1039" Position="302.15451,0.341199994,993.118225" Forward="0.999800026,0,0.0208000001" Right="0.0208000001,0,-0.999800026" Group="-1" VisualVariationIndex="0">env_arcadia_drain_06</Object>
+		<Object IsSquad="false" Player="0" ID="1037" TintValue="1" EditorName="env_arcadia_drain_06_1037" Position="375.307709,0.462000012,897.308594" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_arcadia_drain_06</Object>
+		<Object IsSquad="false" Player="0" ID="1038" TintValue="1" EditorName="env_arcadia_drain_06_1038" Position="389.82489,0.249400005,938.555725" Forward="0.999800026,0,0.0208000001" Right="0.0208000001,0,-0.999800026" Group="-1" VisualVariationIndex="0">env_arcadia_drain_06</Object>
+		<Object IsSquad="false" Player="0" ID="1114" TintValue="1" EditorName="env_arcadia_sculpture_01_1114" Position="896.843872,1.30250001,873.079712" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1109" TintValue="1" EditorName="env_arcadia_sculpture_01_1109" Position="502.94281,1.30250001,585.305786" Forward="-0.0416000001,0,-0.999100029" Right="-0.999100029,0,0.0416000001" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1118" TintValue="1" EditorName="env_arcadia_sculpture_01_1118" Position="889.94873,1.30239999,892.185486" Forward="-0.141100004,0,-0.99000001" Right="-0.99000001,0,0.141100004" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1111" TintValue="1" EditorName="env_arcadia_sculpture_01_1111" Position="519.600281,1.30250001,708.456909" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1112" TintValue="1" EditorName="env_arcadia_sculpture_01_1112" Position="502.468506,1.30250001,707.748779" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1113" TintValue="1" EditorName="env_arcadia_sculpture_01_1113" Position="903.989075,1.30250001,873.375122" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1110" TintValue="1" EditorName="env_arcadia_sculpture_01_1110" Position="520.946228,1.30250001,585.552124" Forward="-0.0416000001,0,-0.999100029" Right="-0.999100029,0,0.0416000001" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1121" TintValue="1" EditorName="env_arcadia_sculpture_01_1121" Position="311.935211,4.19010019,730.091187" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1115" TintValue="1" EditorName="env_arcadia_sculpture_01_1115" Position="889.741882,1.30250001,873.048706" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1116" TintValue="1" EditorName="env_arcadia_sculpture_01_1116" Position="903.596313,1.30250001,891.817078" Forward="-0.141100004,0,-0.99000001" Right="-0.99000001,0,0.141100004" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1122" TintValue="1" EditorName="env_arcadia_sculpture_01_1122" Position="306.390411,4.19010019,735.894287" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1108" TintValue="1" EditorName="env_arcadia_sculpture_01_1108" Position="285.207794,1.30250001,354.784088" Forward="-0.0416000001,0,-0.999100029" Right="-0.999100029,0,0.0416000001" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1120" TintValue="1" EditorName="env_arcadia_sculpture_01_1120" Position="318.179504,4.18970013,723.351318" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1107" TintValue="1" EditorName="env_arcadia_sculpture_01_1107" Position="284.682495,1.30250001,257.070892" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="1117" TintValue="1" EditorName="env_arcadia_sculpture_01_1117" Position="897.107788,1.30239999,892.156677" Forward="-0.141100004,0,-0.99000001" Right="-0.99000001,0,0.141100004" Group="-1" VisualVariationIndex="0">env_arcadia_sculpture_01</Object>
+		<Object IsSquad="false" Player="0" ID="57" TintValue="1" EditorName="game_base_Socket_01_57" Position="924.560486,1.30250001,705.216675" Forward="-0.00669999979,0,-1" Right="-1,0,0.00669999979" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="55" TintValue="1" EditorName="game_base_Socket_01_55" Position="243.260101,1.30330002,915.210083" Forward="1,0,-0.00730000017" Right="-0.00730000017,0,-1" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="53" TintValue="1" EditorName="game_base_Socket_01_53" Position="741.23468,1.30289996,462.631104" Forward="-0.0195000004,0,-0.999800026" Right="-0.999800026,0,0.0195000004" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="54" TintValue="1" EditorName="game_base_Socket_01_54" Position="726.140503,1.30260003,883.318481" Forward="0.999899983,0,0.0142999999" Right="0.0142999999,0,-0.999899983" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="52" TintValue="1" EditorName="game_base_Socket_01_52" Position="263.584412,1.30250001,460.685913" Forward="0.0092000002,0,1" Right="1,0,-0.0092000002" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="56" TintValue="1" EditorName="game_base_Socket_01_56" Position="100.111,1.30250001,695.813599" Forward="0.000500000024,0,1" Right="1,0,-0.000500000024" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="255" TintValue="1" EditorName="hook_bldg_civbuscover_01_255" Position="516.184204,0,643.912781" Forward="-0.991699994,0,-0.128800005" Right="-0.128800005,0,0.991699994" Group="-1" VisualVariationIndex="0">hook_bldg_civbuscover_01</Object>
+		<Object IsSquad="false" Player="0" ID="281" TintValue="1" EditorName="hook_bldg_PelicanMediumCover_01_281" Position="247.769196,0.250400007,572.670776" Forward="0.991699994,0,-0.128800005" Right="-0.128800005,0,-0.991699994" Group="-1" VisualVariationIndex="0">hook_bldg_PelicanMediumCover_01</Object>
+		<Object IsSquad="false" Player="0" ID="282" TintValue="1" EditorName="hook_bldg_PelicanMediumCover_02_282" Position="757.129028,0,569.598816" Forward="0.871599972,0,-0.4903" Right="-0.4903,0,-0.871599972" Group="-1" VisualVariationIndex="0">hook_bldg_PelicanMediumCover_02</Object>
+		<Object IsSquad="false" Player="0" ID="49" TintValue="1" EditorName="hook_bldg_sniperplatform_01_49" Position="606.22583,1.28209996,686.022827" Forward="0.157700002,0,-0.987500012" Right="-0.987500012,0,-0.157700002" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="46" TintValue="1" EditorName="hook_bldg_sniperplatform_01_46" Position="607.746216,1.30250001,616.099182" Forward="-0.997500002,0,0.0706999972" Right="0.0706999972,0,0.997500002" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="48" TintValue="1" EditorName="hook_bldg_sniperplatform_01_48" Position="417.257904,1.29830003,688.283813" Forward="-0.973800004,0,-0.227200001" Right="-0.227200001,0,0.973800004" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="47" TintValue="1" EditorName="hook_bldg_sniperplatform_01_47" Position="418.032501,1.23899996,619.117798" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1059" TintValue="1" EditorName="hook_bldg_WarthogCover_01_1059" Position="405.396393,0,755.148926" Forward="0.905799985,0,0.423799992" Right="0.423799992,0,-0.905799985" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_01</Object>
+		<Object IsSquad="false" Player="0" ID="257" TintValue="1" EditorName="hook_bldg_WarthogCover_01_257" Position="677.54657,0,755.538025" Forward="0.157700002,0,-0.987500012" Right="-0.987500012,0,-0.157700002" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_01</Object>
+		<Object IsSquad="false" Player="0" ID="426" TintValue="1" EditorName="sys_creepDifficulty_hard_01_426" Position="218.151093,1.30120003,905.493103" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+		<Object IsSquad="false" Player="0" ID="464" TintValue="1" EditorName="sys_creepDifficulty_hard_01_464" Position="756.650574,1.30250001,871.567017" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+		<Object IsSquad="false" Player="0" ID="452" TintValue="1" EditorName="sys_creepDifficulty_medium_01_452" Position="892.135315,1.30250001,747.858582" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="444" TintValue="1" EditorName="sys_creepDifficulty_medium_01_444" Position="123.580902,1.30250001,671.419006" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="465" TintValue="1" EditorName="sys_creepReward_large_01_465" Position="726.972595,0.919399977,823.908813" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_large_01</Object>
+		<Object IsSquad="false" Player="0" ID="427" TintValue="1" EditorName="sys_creepReward_large_01_427" Position="250.207901,1.30239999,861.396729" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_large_01</Object>
+		<Object IsSquad="false" Player="0" ID="451" TintValue="1" EditorName="sys_creepReward_medium_01_451" Position="863.2901,1.30209994,701.894592" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="445" TintValue="1" EditorName="sys_creepReward_medium_01_445" Position="157.6315,1.30250001,700.478516" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="1101" TintValue="1" EditorName="sys_creepWorld_Arcadia_01_1101" Position="95.0634003,1.30239999,658.136414" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_Arcadia_01</Object>
+		<Object IsSquad="false" Player="0" ID="1103" TintValue="1" EditorName="sys_creepWorld_Arcadia_01_1103" Position="689.038818,1.30250001,881.553711" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_Arcadia_01</Object>
+		<Object IsSquad="false" Player="0" ID="1104" TintValue="1" EditorName="sys_creepWorld_Arcadia_01_1104" Position="945.873474,1.30250001,668.447205" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_Arcadia_01</Object>
+		<Object IsSquad="false" Player="0" ID="1102" TintValue="1" EditorName="sys_creepWorld_Arcadia_01_1102" Position="298.900909,1.30239999,892.669373" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_Arcadia_01</Object>
+		<Object IsSquad="false" Player="0" ID="352" TintValue="1" EditorName="sys_marker_crate3A_01_352" Position="363.486389,0,228.856003" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="356" TintValue="1" EditorName="sys_marker_crate3A_01_356" Position="273.719604,0,550.778809" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="353" TintValue="1" EditorName="sys_marker_crate3A_01_353" Position="86.9581985,0,216.813202" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="349" TintValue="1" EditorName="sys_marker_crate3A_01_349" Position="659.893127,0,392.649689" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="348" TintValue="1" EditorName="sys_marker_crate3A_01_348" Position="733.443298,0,554.945618" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="351" TintValue="1" EditorName="sys_marker_crate3A_01_351" Position="647.98468,0,216.828506" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="350" TintValue="1" EditorName="sys_marker_crate3A_01_350" Position="951.845825,0,238.922699" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="347" TintValue="1" EditorName="sys_marker_crate3A_01_347" Position="952.170715,0,801.768372" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="343" TintValue="1" EditorName="sys_marker_crate3A_01_343" Position="571.128906,0,644.553589" Forward="0.783299983,0,0.621599972" Right="0.621599972,0,-0.783299983" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="357" TintValue="1" EditorName="sys_marker_crate3A_01_357" Position="192.264206,0,802.569519" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="354" TintValue="1" EditorName="sys_marker_crate3A_01_354" Position="144.744904,1.30250001,346.7901" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="355" TintValue="1" EditorName="sys_marker_crate3A_01_355" Position="353.75,0,411.723999" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="344" TintValue="1" EditorName="sys_marker_crate3A_01_344" Position="456.318695,0,645.182129" Forward="0.783299983,0,0.621599972" Right="0.621599972,0,-0.783299983" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="1075" TintValue="1" EditorName="sys_marker_crate3B_01_1075" Position="144.410706,0,411.813995" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1074" TintValue="1" EditorName="sys_marker_crate3B_01_1074" Position="174.764694,0,573.639893" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1076" TintValue="1" EditorName="sys_marker_crate3B_01_1076" Position="97.7799988,0,295.316193" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1070" TintValue="1" EditorName="sys_marker_crate3B_01_1070" Position="646.62738,0,792.131226" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1137" TintValue="1" EditorName="sys_marker_crate3B_01_1137" Position="52.0688019,1.30250001,783.354309" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1077" TintValue="1" EditorName="sys_marker_crate3B_01_1077" Position="389.423492,0,260.191193" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1069" TintValue="1" EditorName="sys_marker_crate3B_01_1069" Position="846.110474,0,888.190491" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1066" TintValue="1" EditorName="sys_marker_crate3B_01_1066" Position="896.43158,0,337.939697" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1071" TintValue="1" EditorName="sys_marker_crate3B_01_1071" Position="513.168518,0.397100002,600.580811" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1073" TintValue="1" EditorName="sys_marker_crate3B_01_1073" Position="369.915405,0,810.631714" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1072" TintValue="1" EditorName="sys_marker_crate3B_01_1072" Position="512.879822,0.777499974,694.578125" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1068" TintValue="1" EditorName="sys_marker_crate3B_01_1068" Position="874.312622,0,567.349426" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1067" TintValue="1" EditorName="sys_marker_crate3B_01_1067" Position="913.698486,1.24179995,443.858002" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1065" TintValue="1" EditorName="sys_marker_crate3B_01_1065" Position="750.764282,1.30250001,302.785889" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="1092" TintValue="1" EditorName="sys_marker_crate3C_01_1092" Position="713.506226,1.30250001,245.912399" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1086" TintValue="1" EditorName="sys_marker_crate3C_01_1086" Position="623.633728,0,654.34082" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1080" TintValue="1" EditorName="sys_marker_crate3C_01_1080" Position="114.468399,1.30050004,499.438293" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1088" TintValue="1" EditorName="sys_marker_crate3C_01_1088" Position="867.019775,1.53530002,774.526611" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1085" TintValue="1" EditorName="sys_marker_crate3C_01_1085" Position="395.418701,0,655.185486" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1082" TintValue="1" EditorName="sys_marker_crate3C_01_1082" Position="216.014496,1.27559996,639.065308" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1089" TintValue="1" EditorName="sys_marker_crate3C_01_1089" Position="827.476807,1.42110002,620.106384" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1087" TintValue="1" EditorName="sys_marker_crate3C_01_1087" Position="711.455688,0.143000007,762.099487" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1084" TintValue="1" EditorName="sys_marker_crate3C_01_1084" Position="357.7948,0,764.44751" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1081" TintValue="1" EditorName="sys_marker_crate3C_01_1081" Position="396.318787,1.33229995,515.919006" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1091" TintValue="1" EditorName="sys_marker_crate3C_01_1091" Position="854.152527,2.95469999,265.180206" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1090" TintValue="1" EditorName="sys_marker_crate3C_01_1090" Position="838.722717,0.0313999988,458.866699" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1078" TintValue="1" EditorName="sys_marker_crate3C_01_1078" Position="149.759506,2.4828999,298.540314" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1083" TintValue="1" EditorName="sys_marker_crate3C_01_1083" Position="211.399597,0,821.112" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1079" TintValue="1" EditorName="sys_marker_crate3C_01_1079" Position="260.240814,0,235.108505" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="1096" TintValue="1" EditorName="sys_marker_crate3C_01_1096" Position="611.458618,1.65100002,495.615814" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="485" TintValue="1" EditorName="sys_rebelMarker_infantry_01_485" Position="695.864319,1.30250001,871.668823" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" ID="432" TintValue="1" EditorName="sys_rebelMarker_infantry_01_432" Position="221.085007,1.30250001,916.974121" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" ID="479" TintValue="1" EditorName="sys_rebelMarker_infantry_01_479" Position="877.212402,1.30250001,741.41748" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" ID="471" TintValue="1" EditorName="sys_rebelMarker_infantry_01_471" Position="140.377396,1.30250001,665.902588" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" ID="484" TintValue="1" EditorName="sys_rebelMarker_infantry_01_484" Position="691.865173,1.30250001,856.82373" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" ID="472" TintValue="1" EditorName="sys_rebelMarker_infantry_01_472" Position="123.251503,1.30239999,727.130127" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" ID="478" TintValue="1" EditorName="sys_rebelMarker_infantry_01_478" Position="896.729675,1.30250001,663.599426" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" ID="433" TintValue="1" EditorName="sys_rebelMarker_infantry_01_433" Position="285.134705,1.30250001,928.509277" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" ID="477" TintValue="1" EditorName="sys_rebelMarker_sniper_01_477" Position="920.046387,1.30219996,749.276428" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" ID="1136" TintValue="1" EditorName="sys_rebelMarker_sniper_01_1136" Position="129.4104,1.30250001,668.179382" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" ID="476" TintValue="1" EditorName="sys_rebelMarker_sniper_01_476" Position="920.015625,1.30239999,671.745789" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" ID="1135" TintValue="1" EditorName="sys_rebelMarker_sniper_01_1135" Position="131.891006,1.30250001,721.668213" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="Lance_2_arc Script" Type="Scenario" NextTriggerVarID="434" NextTriggerID="111" NextConditionID="99" NextEffectID="133" External="false">
+		<TriggerGroups />
+		<TriggerVars />
+		<Triggers />
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Lance_2_arc Script" Type="Scenario" NextTriggerVarID="434" NextTriggerID="111" NextConditionID="99" NextEffectID="133" External="false">
+				<TriggerGroups />
+				<TriggerVars />
+				<Triggers />
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="80" NextTriggerID="79" NextConditionID="78" NextEffectID="79" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="360" Y="159" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="80" NextTriggerID="79" NextConditionID="78" NextEffectID="79" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+					<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="360" Y="159" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">0</Input>
+								<Input Name="Queue" SigID="3" Optional="true">1</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<NextID>1173</NextID>
+	<EditorOnlyData>
+		<HelperAreas />
+		<HelperAreaBoxes />
+		<HelpePositions>
+			<HelpePositionObject>
+				<Name>Position231</Name>
+				<ID>231</ID>
+				<Group>-1</Group>
+				<Position>517.92218,47.6941986,584.579895</Position>
+			</HelpePositionObject>
+		</HelpePositions>
+		<EditorOnlyObjects />
+	</EditorOnlyData>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>1024</SimBoundsMaxX>
+	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
+	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_City_mountain</EnvironmentReverbPreset>
+	<ScenarioWorld>Arcadia</ScenarioWorld>
+	<AllowVeterancy>true</AllowVeterancy>
+	<GlobalExcludeObjects />
+</Scenario>

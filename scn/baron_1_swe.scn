@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">Baron_1_swe</Terrain>
+	<Sky />
+	<TerrainEnv>environment\sky\sw_exterior_sky_en.ddx</TerrainEnv>
+	<Lightset>Baron_1_swe</Lightset>
+	<Pathing>Baron_1_swe</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Neutral</Team>
+			<Team ID="2">Neutral</Team>
+			<Team ID="3">Neutral</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Random" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="1" Position="89.9253998,9.14290047,98.6908035" Forward="0,0,1" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="14" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="13" />
+		<Position Player="-1" Number="2" Position="676.195801,2.92569995,671.240112" Forward="0.00939999986,0,-1" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="15" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="16" />
+		<Position Player="-1" Number="3" Position="404.53891,6.78649998,341.517487" Forward="0,0,1" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Creeps" LocalisedDisplayName="25560,Flood" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Objectives>
+		<MaxObjectiveID>-1</MaxObjectiveID>
+	</Objectives>
+	<Minimap>
+		<MinimapTexture />
+	</Minimap>
+	<BuildingTextureIndexUNSC>0</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>0</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres>
+			<Sphere ID="93" Name="DesignSphere93" Position="661.736328,12.9359999,123.070297" Radius="55">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="101" Name="DesignSphere101" Position="104.667397,4.20190001,649.383911" Radius="50">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="108" Name="DesignSphere108" Position="544.459229,6.50950003,390.821808" Radius="55">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="125" Name="DesignSphere125" Position="207.991699,6.55859995,394.135895" Radius="55">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="127" Name="DesignSphere127" Position="56.5307007,6.6395998,339.083191" Radius="50">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="132" Name="DesignSphere132" Position="709.69519,6.65990019,428.247192" Radius="50">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+		</Spheres>
+		<Lines />
+	</DesignObjects>
+	<ObjectGroups>
+		<ObjectGroup ID="1" Name="Forerunner" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="2" Name="basemarkers" Visible="false" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="3" Name="hole covers" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+	</ObjectGroups>
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="7" TintValue="1" EditorName="game_base_Socket_01_7" Position="217.744003,6.53410006,382.677094" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="6" TintValue="1" EditorName="game_base_Socket_01_6" Position="548.074219,6.42780018,401.757294" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="9" TintValue="1" EditorName="game_base_Socket_01_9" Position="100.935898,4.12519979,657.935913" Forward="1,0,0.00899999961" Right="0.00899999961,0,-1" Group="-1" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="8" TintValue="1" EditorName="game_base_Socket_01_8" Position="664.183472,12.9359999,114.501503" Forward="-1,0,-0.00100000005" Right="-0.00100000005,0,1" Group="-1" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="63" TintValue="1" EditorName="hook_bldg_sniperplatform_01_63" Position="472.506714,11.9931002,235.263" Forward="0.993700027,0,-0.112099998" Right="-0.112099998,0,-0.993700027" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="11" TintValue="1" EditorName="hook_bldg_sniperplatform_01_11" Position="608.638672,8.42339993,254.610504" Forward="-0.999899983,0,-0.0124000004" Right="-0.0124000004,0,0.999899983" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="64" TintValue="1" EditorName="hook_bldg_sniperplatform_01_64" Position="308.100586,8.82820034,508.036407" Forward="-0.999599993,0,-0.0293000005" Right="-0.0293000005,0,0.999599993" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="12" TintValue="1" EditorName="hook_bldg_sniperplatform_01_12" Position="162.048401,1.08399999,523.000671" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="18" TintValue="1" EditorName="hook_bonus_reactor_01_18" Position="700.764221,6.64569998,428.937012" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_bonus_reactor_01</Object>
+		<Object IsSquad="false" Player="0" ID="10" TintValue="1" EditorName="hook_bonus_reactor_01_10" Position="66.7359009,6.64970016,336.759399" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_bonus_reactor_01</Object>
+		<Object IsSquad="false" Player="0" ID="17" TintValue="1" EditorName="hook_buff_healing_01_17" Position="384.247589,6.59350014,383.658813" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_buff_healing_01</Object>
+		<Object IsSquad="false" Player="0" ID="129" TintValue="1" EditorName="sys_creepDifficulty_medium_01_129" Position="62.6286011,7.15210009,375.801086" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="133" TintValue="1" EditorName="sys_creepDifficulty_medium_01_133" Position="732.039978,6.70050001,401.456909" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="109" TintValue="1" EditorName="sys_creepDifficulty_medium_01_109" Position="540.816711,6.54139996,342.332092" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="124" TintValue="1" EditorName="sys_creepDifficulty_medium_01_124" Position="222.979797,6.60279989,443.239197" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="110" TintValue="1" EditorName="sys_creepReward_medium_01_110" Position="557.600403,6.63520002,340.208496" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="123" TintValue="1" EditorName="sys_creepReward_medium_01_123" Position="218.583496,6.58479977,443.134705" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="103" TintValue="1" EditorName="sys_creepReward_small_01_103" Position="111.716599,13.0587997,611.521729" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="134" TintValue="1" EditorName="sys_creepReward_small_01_134" Position="682.650879,6.67269993,405.837494" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="128" TintValue="1" EditorName="sys_creepReward_small_01_128" Position="85.5167007,6.64919996,348.420807" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="94" TintValue="1" EditorName="sys_creepReward_small_01_94" Position="660.63092,12.9417,166.843704" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="182" TintValue="1" EditorName="sys_floodMarker_jackal_01_182" Position="629.153076,12.9359999,95.9962006" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+		<Object IsSquad="false" Player="0" ID="185" TintValue="1" EditorName="sys_floodMarker_jackal_01_185" Position="140.738998,13.0587997,628.607178" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+		<Object IsSquad="false" Player="0" ID="193" TintValue="1" EditorName="sys_floodMarker_jackal_01_193" Position="516.405823,6.50909996,389.22229" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+		<Object IsSquad="false" Player="0" ID="186" TintValue="1" EditorName="sys_floodMarker_jackal_01_186" Position="245.454895,6.52159977,405.424011" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+		<Object IsSquad="false" Player="0" ID="192" TintValue="1" EditorName="sys_floodMarker_jackal_01_192" Position="515.967285,6.50909996,366.137299" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+		<Object IsSquad="false" Player="0" ID="187" TintValue="1" EditorName="sys_floodMarker_jackal_01_187" Position="245.098801,6.52610016,393.293793" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_jackal_01</Object>
+		<Object IsSquad="false" Player="0" ID="191" TintValue="1" EditorName="sys_floodMarker_marine_01_191" Position="579.336975,6.50909996,371.130493" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="188" TintValue="1" EditorName="sys_floodMarker_marine_01_188" Position="182.242401,6.5223999,400.626892" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="181" TintValue="1" EditorName="sys_floodMarker_marine_01_181" Position="623.331787,12.9359999,128.977905" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="180" TintValue="1" EditorName="sys_floodMarker_marine_01_180" Position="623.432373,12.9359999,109.566002" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="189" TintValue="1" EditorName="sys_floodMarker_marine_01_189" Position="183.622604,6.52159977,386.748413" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="190" TintValue="1" EditorName="sys_floodMarker_marine_01_190" Position="582.066528,6.50909996,405.354889" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="197" TintValue="1" EditorName="sys_floodMarker_marine_01_197" Position="74.3373032,6.61380005,317.044006" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="194" TintValue="1" EditorName="sys_floodMarker_marine_01_194" Position="728.547974,6.64680004,444.156494" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="183" TintValue="1" EditorName="sys_floodMarker_marine_01_183" Position="136.087799,13.0587997,666.159424" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="195" TintValue="1" EditorName="sys_floodMarker_marine_01_195" Position="725.623474,7.00559998,416.38269" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="184" TintValue="1" EditorName="sys_floodMarker_marine_01_184" Position="143.157806,13.0587997,639.012817" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="196" TintValue="1" EditorName="sys_floodMarker_marine_01_196" Position="69.5314026,6.59079981,360.270294" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_marine_01</Object>
+		<Object IsSquad="false" Player="0" ID="117" TintValue="1" EditorName="sys_floodMarker_swarm_01_117" Position="681.855591,6.65280008,411.498199" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_swarm_01</Object>
+		<Object IsSquad="false" Player="0" ID="119" TintValue="1" EditorName="sys_floodMarker_swarm_01_119" Position="34.533699,6.59079981,361.003815" Forward="-0.389400005,0,0.92110002" Right="0.92110002,0,0.389400005" Group="-1" VisualVariationIndex="0">sys_floodMarker_swarm_01</Object>
+		<Object IsSquad="false" Player="0" ID="120" TintValue="1" EditorName="sys_floodMarker_swarm_01_120" Position="44.8970985,6.67460012,317.173615" Forward="-0.198699996,0,0.980099976" Right="0.980099976,0,0.198699996" Group="-1" VisualVariationIndex="0">sys_floodMarker_swarm_01</Object>
+		<Object IsSquad="false" Player="0" ID="118" TintValue="1" EditorName="sys_floodMarker_swarm_01_118" Position="728.808899,6.63819981,459.759003" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_floodMarker_swarm_01</Object>
+		<Object IsSquad="false" Player="1" ID="205" TintValue="1" EditorName="sys_marker_baseObstruction_01_201" Position="216.600906,6.52580023,383.051514" Forward="-1,0,0" Right="0,0,1" Group="2" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
+		<Object IsSquad="false" Player="1" ID="209" TintValue="1" EditorName="sys_marker_baseObstruction_01_202" Position="547.978271,6.50909996,384.190094" Forward="1,0,0" Right="0,0,-1" Group="2" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
+		<Object IsSquad="false" Player="1" ID="199" TintValue="1" EditorName="sys_marker_baseObstruction_01_199" Position="101.854301,4.12519979,658.148376" Forward="0.999800026,0,0.0214000009" Right="0.0214000009,0,-0.999800026" Group="2" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
+		<Object IsSquad="false" Player="1" ID="208" TintValue="1" EditorName="sys_marker_baseObstruction_01_208" Position="676.793884,2.92529988,671.321472" Forward="0,0,-1" Right="-1,0,0" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
+		<Object IsSquad="false" Player="1" ID="206" TintValue="1" EditorName="sys_marker_baseObstruction_01_204" Position="664.774719,12.8956003,113.814796" Forward="-1,0,0" Right="0,0,1" Group="2" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
+		<Object IsSquad="false" Player="1" ID="203" TintValue="1" EditorName="sys_marker_baseObstruction_01_203" Position="91.665802,9.14290047,99.0178986" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">
+			<Flag>IgnoreToAO</Flag>sys_marker_baseObstruction_01</Object>
+		<Object IsSquad="false" Player="0" ID="152" TintValue="1" EditorName="sys_marker_crate3A_01_152" Position="439.640991,8.6420002,691.841309" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="143" TintValue="1" EditorName="sys_marker_crate3A_01_143" Position="375.740509,6.69570017,458.900909" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="138" TintValue="1" EditorName="sys_marker_crate3A_01_138" Position="702.706604,15.4556999,206.964005" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="631" TintValue="1" EditorName="sys_marker_crate3A_01_631" Position="33.2160988,10.9186001,21.3904991" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="142" TintValue="1" EditorName="sys_marker_crate3A_01_142" Position="300.063599,2.27880001,198.870499" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="144" TintValue="1" EditorName="sys_marker_crate3A_01_144" Position="466.360809,6.68330002,571.796387" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="148" TintValue="1" EditorName="sys_marker_crate3A_01_148" Position="745.407288,1.70570004,745.549683" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="145" TintValue="1" EditorName="sys_marker_crate3A_01_145" Position="284.320496,7.4987998,593.329712" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="141" TintValue="1" EditorName="sys_marker_crate3A_01_141" Position="381.042694,11.4825001,321.194" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="147" TintValue="1" EditorName="sys_marker_crate3A_01_147" Position="91.5167007,6.76859999,554.13678" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="140" TintValue="1" EditorName="sys_marker_crate3A_01_140" Position="479.01889,8.62510014,165.769394" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="139" TintValue="1" EditorName="sys_marker_crate3A_01_139" Position="608.076416,7.00649977,321.973114" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="151" TintValue="1" EditorName="sys_marker_crate3A_01_151" Position="333.626892,5.0328002,62.2000008" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="149" TintValue="1" EditorName="sys_marker_crate3A_01_149" Position="549.649719,3.46379995,18.7905998" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="150" TintValue="1" EditorName="sys_marker_crate3A_01_150" Position="237.617294,4.21920013,743.681885" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="146" TintValue="1" EditorName="sys_marker_crate3A_01_146" Position="154.860596,6.42500019,418.930389" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="156" TintValue="1" EditorName="sys_marker_crate3B_01_156" Position="480.992706,10.1500998,178.083206" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="155" TintValue="1" EditorName="sys_marker_crate3B_01_155" Position="287.625885,7.74459982,593.520508" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="154" TintValue="1" EditorName="sys_marker_crate3B_01_154" Position="437.808807,8.84720039,693.814514" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="160" TintValue="1" EditorName="sys_marker_crate3B_01_160" Position="756.265381,9.36019993,415.735413" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="164" TintValue="1" EditorName="sys_marker_crate3B_01_164" Position="742.701721,15.934,20.7304001" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="162" TintValue="1" EditorName="sys_marker_crate3B_01_162" Position="41.3788986,9.14290047,163.783401" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="157" TintValue="1" EditorName="sys_marker_crate3B_01_157" Position="486.31189,8.0862999,261.8685" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="158" TintValue="1" EditorName="sys_marker_crate3B_01_158" Position="290.818512,7.30539989,512.158691" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="153" TintValue="1" EditorName="sys_marker_crate3B_01_153" Position="335.162109,4.90689993,62.1805992" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="163" TintValue="1" EditorName="sys_marker_crate3B_01_163" Position="17.0618,7.15889978,749.043579" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="159" TintValue="1" EditorName="sys_marker_crate3B_01_159" Position="17.2409,10.3936005,380.898102" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="161" TintValue="1" EditorName="sys_marker_crate3B_01_161" Position="752.353516,1.90840006,601.864624" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="177" TintValue="1" EditorName="sys_marker_crate3C_01_177" Position="229.698196,6.61990023,504.544312" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="171" TintValue="1" EditorName="sys_marker_crate3C_01_171" Position="208.9095,6.63640022,310.838501" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="167" TintValue="1" EditorName="sys_marker_crate3C_01_167" Position="16.4113007,10.5169001,380.806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="175" TintValue="1" EditorName="sys_marker_crate3C_01_175" Position="16.7217999,9.94610023,106.727501" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="170" TintValue="1" EditorName="sys_marker_crate3C_01_170" Position="381.423492,11.5317001,320.951599" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="169" TintValue="1" EditorName="sys_marker_crate3C_01_169" Position="375.554596,6.68470001,456.446686" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="168" TintValue="1" EditorName="sys_marker_crate3C_01_168" Position="748.496887,10.0937996,404.455688" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="165" TintValue="1" EditorName="sys_marker_crate3C_01_165" Position="742.767822,17.0590992,17.2744007" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="173" TintValue="1" EditorName="sys_marker_crate3C_01_173" Position="354.072388,6.65329981,147.1707" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="176" TintValue="1" EditorName="sys_marker_crate3C_01_176" Position="753.029419,3.26859999,661.874084" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="172" TintValue="1" EditorName="sys_marker_crate3C_01_172" Position="522.928528,6.51170015,466.752502" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="166" TintValue="1" EditorName="sys_marker_crate3C_01_166" Position="17.0900993,6.47100019,747.487" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="178" TintValue="1" EditorName="sys_marker_crate3C_01_178" Position="523.128784,6.58720016,270.707092" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="174" TintValue="1" EditorName="sys_marker_crate3C_01_174" Position="392.597992,6.89699984,651.52887" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="16" TintValue="1" EditorName="sys_rallystart_01_16" Position="604.163818,3.59459996,684.370483" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>sys_rallystart_01</Object>
+		<Object IsSquad="false" Player="0" ID="13" TintValue="1" EditorName="sys_rallystart_01_13" Position="164.499496,10.8582001,92.8811035" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rallystart_01</Object>
+		<Object IsSquad="false" Player="0" ID="14" TintValue="1" EditorName="sys_unitstart_01_14" Position="167.893799,10.4547997,122.703796" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+		<Object IsSquad="false" Player="0" ID="15" TintValue="1" EditorName="sys_unitstart_01_15" Position="606.061523,2.50279999,640.713684" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>sys_unitstart_01</Object>
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="53" NextTriggerID="50" NextConditionID="49" NextEffectID="51" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_ext</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="49" Type="Sound" Name="" IsNull="false">set_switch_music_shield_ext</TriggerVar>
+			<TriggerVar ID="50" Type="Bool" Name="QueueVar2" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="361" Y="152" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+					<Effect ID="48" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">49</Input>
+						<Input Name="Queue" SigID="3" Optional="true">50</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="53" NextTriggerID="50" NextConditionID="49" NextEffectID="51" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_ext</TriggerVar>
+					<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="49" Type="Sound" Name="" IsNull="false">set_switch_music_shield_ext</TriggerVar>
+					<TriggerVar ID="50" Type="Bool" Name="QueueVar2" IsNull="true">False</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="361" Y="152" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">0</Input>
+								<Input Name="Queue" SigID="3" Optional="true">1</Input>
+							</Effect>
+							<Effect ID="48" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">49</Input>
+								<Input Name="Queue" SigID="3" Optional="true">50</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<TriggerSystem Name="Baron1Script" Type="Scenario" NextTriggerVarID="245" NextTriggerID="68" NextConditionID="61" NextEffectID="87" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="2" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectionForm_01</TriggerVar>
+			<TriggerVar ID="4" Type="Vector" Name="FacingVar1" IsNull="true" />
+			<TriggerVar ID="5" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6" Type="Vector" Name="FlyInStartVar1" IsNull="true" />
+			<TriggerVar ID="7" Type="Vector" Name="FlyInEndVar1" IsNull="true" />
+			<TriggerVar ID="8" Type="Vector" Name="RallyPointVar1" IsNull="true" />
+			<TriggerVar ID="9" Type="Bool" Name="AttackMoveRallyPointVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="10" Type="Squad" Name="CreatedSquadVar1" IsNull="true" />
+			<TriggerVar ID="11" Type="SquadList" Name="Flood 1" IsNull="false" />
+			<TriggerVar ID="12" Type="Bool" Name="SquadListClearExistingVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="19" Type="Vector" Name="" IsNull="false">588.398682,6.83279991,277.072906</TriggerVar>
+			<TriggerVar ID="27" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectionForm_01</TriggerVar>
+			<TriggerVar ID="29" Type="Vector" Name="FacingVar2" IsNull="true" />
+			<TriggerVar ID="30" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="31" Type="Vector" Name="FlyInStartVar2" IsNull="true" />
+			<TriggerVar ID="32" Type="Vector" Name="FlyInEndVar2" IsNull="true" />
+			<TriggerVar ID="33" Type="Vector" Name="RallyPointVar2" IsNull="true" />
+			<TriggerVar ID="34" Type="Bool" Name="AttackMoveRallyPointVar2" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="35" Type="Squad" Name="CreatedSquadVar2" IsNull="true" />
+			<TriggerVar ID="37" Type="Bool" Name="SquadListClearExistingVar2" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="45" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectedCarrier_01</TriggerVar>
+			<TriggerVar ID="47" Type="Vector" Name="FacingVar3" IsNull="true" />
+			<TriggerVar ID="48" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="49" Type="Vector" Name="FlyInStartVar3" IsNull="true" />
+			<TriggerVar ID="50" Type="Vector" Name="FlyInEndVar3" IsNull="true" />
+			<TriggerVar ID="51" Type="Vector" Name="RallyPointVar3" IsNull="true" />
+			<TriggerVar ID="52" Type="Bool" Name="AttackMoveRallyPointVar3" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="53" Type="Squad" Name="CreatedSquadVar3" IsNull="true" />
+			<TriggerVar ID="55" Type="Bool" Name="SquadListClearExistingVar3" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="63" Type="ProtoSquad" Name="" IsNull="false">fld_inf_rhinodillo_01</TriggerVar>
+			<TriggerVar ID="65" Type="Vector" Name="FacingVar4" IsNull="true" />
+			<TriggerVar ID="66" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="67" Type="Vector" Name="FlyInStartVar4" IsNull="true" />
+			<TriggerVar ID="68" Type="Vector" Name="FlyInEndVar4" IsNull="true" />
+			<TriggerVar ID="69" Type="Vector" Name="RallyPointVar4" IsNull="true" />
+			<TriggerVar ID="70" Type="Bool" Name="AttackMoveRallyPointVar4" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="71" Type="Squad" Name="CreatedSquadVar4" IsNull="true" />
+			<TriggerVar ID="73" Type="Bool" Name="SquadListClearExistingVar4" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="75" Type="Vector" Name="" IsNull="false">23.Position</TriggerVar>
+			<TriggerVar ID="76" Type="Float" Name="" IsNull="false">23.Radius</TriggerVar>
+			<TriggerVar ID="79" Type="Diplomacy" Name="" IsNull="false">Enemy</TriggerVar>
+			<TriggerVar ID="80" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="81" Type="Team" Name="CompareTeamVar1" IsNull="true" />
+			<TriggerVar ID="82" Type="Bool" Name="InvertFilterVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="83" Type="EntityFilterSet" Name="EntityFilterSetVar83" IsNull="false" />
+			<TriggerVar ID="84" Type="Trigger" Name="TriggerVar3" IsNull="false">5</TriggerVar>
+			<TriggerVar ID="85" Type="Trigger" Name="TriggerVar4" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="86" Type="Trigger" Name="TriggerVar5" IsNull="false">1</TriggerVar>
+			<TriggerVar ID="102" Type="Vector" Name="" IsNull="false">19.Position</TriggerVar>
+			<TriggerVar ID="103" Type="Float" Name="" IsNull="false">19.Radius</TriggerVar>
+			<TriggerVar ID="111" Type="Vector" Name="" IsNull="false">32.Position</TriggerVar>
+			<TriggerVar ID="112" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectionForm_01</TriggerVar>
+			<TriggerVar ID="114" Type="Vector" Name="FacingVar5" IsNull="true" />
+			<TriggerVar ID="115" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="116" Type="Vector" Name="FlyInStartVar5" IsNull="true" />
+			<TriggerVar ID="117" Type="Vector" Name="FlyInEndVar5" IsNull="true" />
+			<TriggerVar ID="118" Type="Vector" Name="RallyPointVar5" IsNull="true" />
+			<TriggerVar ID="119" Type="Bool" Name="AttackMoveRallyPointVar5" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="120" Type="Squad" Name="CreatedSquadVar5" IsNull="true" />
+			<TriggerVar ID="121" Type="SquadList" Name="Flood 2" IsNull="false" />
+			<TriggerVar ID="122" Type="Bool" Name="SquadListClearExistingVar5" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="130" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectionForm_01</TriggerVar>
+			<TriggerVar ID="132" Type="Vector" Name="FacingVar6" IsNull="true" />
+			<TriggerVar ID="133" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="134" Type="Vector" Name="FlyInStartVar6" IsNull="true" />
+			<TriggerVar ID="135" Type="Vector" Name="FlyInEndVar6" IsNull="true" />
+			<TriggerVar ID="136" Type="Vector" Name="RallyPointVar6" IsNull="true" />
+			<TriggerVar ID="137" Type="Bool" Name="AttackMoveRallyPointVar6" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="138" Type="Squad" Name="CreatedSquadVar6" IsNull="true" />
+			<TriggerVar ID="140" Type="Bool" Name="SquadListClearExistingVar6" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="148" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectedCarrier_01</TriggerVar>
+			<TriggerVar ID="150" Type="Vector" Name="FacingVar7" IsNull="true" />
+			<TriggerVar ID="151" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="152" Type="Vector" Name="FlyInStartVar7" IsNull="true" />
+			<TriggerVar ID="153" Type="Vector" Name="FlyInEndVar7" IsNull="true" />
+			<TriggerVar ID="154" Type="Vector" Name="RallyPointVar7" IsNull="true" />
+			<TriggerVar ID="155" Type="Bool" Name="AttackMoveRallyPointVar7" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="156" Type="Squad" Name="CreatedSquadVar7" IsNull="true" />
+			<TriggerVar ID="158" Type="Bool" Name="SquadListClearExistingVar7" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="166" Type="ProtoSquad" Name="" IsNull="false">fld_inf_rhinodillo_01</TriggerVar>
+			<TriggerVar ID="168" Type="Vector" Name="FacingVar8" IsNull="true" />
+			<TriggerVar ID="169" Type="Player" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="170" Type="Vector" Name="FlyInStartVar8" IsNull="true" />
+			<TriggerVar ID="171" Type="Vector" Name="FlyInEndVar8" IsNull="true" />
+			<TriggerVar ID="172" Type="Vector" Name="RallyPointVar8" IsNull="true" />
+			<TriggerVar ID="173" Type="Bool" Name="AttackMoveRallyPointVar8" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="174" Type="Squad" Name="CreatedSquadVar8" IsNull="true" />
+			<TriggerVar ID="176" Type="Bool" Name="SquadListClearExistingVar8" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="177" Type="Vector" Name="" IsNull="false">25.Position</TriggerVar>
+			<TriggerVar ID="178" Type="Vector" Name="" IsNull="false">26.Position</TriggerVar>
+			<TriggerVar ID="179" Type="Vector" Name="" IsNull="false">27.Position</TriggerVar>
+			<TriggerVar ID="180" Type="Vector" Name="" IsNull="false">142.044098,6.64340019,326.650909</TriggerVar>
+			<TriggerVar ID="181" Type="Vector" Name="" IsNull="false">30.Position</TriggerVar>
+			<TriggerVar ID="182" Type="Vector" Name="" IsNull="false">31.Position</TriggerVar>
+			<TriggerVar ID="236" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="Startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="123" Y="205" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="78" Type="SetMinimapSkirtMirroring" DBID="1054" Version="1" CommentOut="false">
+						<Input Name="EnableMirroring" SigID="1" Optional="false">236</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings>
+				<TriggerTemplateMapping ID="3" Name="\scenario\defendarea.xml" Image="" X="1160" Y="752" SizeX="265" SizeY="80" GroupID="-1" CommentOut="true" Obsolete="false" DoNotUse="false">
+					<InputMapping Name="Defenders" SigID="-1" Optional="false" Type="SquadList" BindID="36">11</InputMapping>
+					<InputMapping Name="Location" SigID="-1" Optional="false" Type="Location" BindID="3">75</InputMapping>
+					<InputMapping Name="Radius" SigID="-1" Optional="false" Type="Distance" BindID="4">76</InputMapping>
+					<InputMapping Name="Targets" SigID="-1" Optional="false" Type="EntityFilterSet" BindID="24">83</InputMapping>
+					<TriggerInput Name="Go" BindID="0,Activate" Color="0,255,0">1,Effect.True;</TriggerInput>
+					<TriggerInput Name="Stop" BindID="5,Activate" Color="255,0,0" />
+				</TriggerTemplateMapping>
+				<TriggerTemplateMapping ID="7" Name="\scenario\defendarea.xml" Image="" X="1888" Y="124" SizeX="265" SizeY="80" GroupID="-1" CommentOut="true" Obsolete="false" DoNotUse="false">
+					<InputMapping Name="Defenders" SigID="-1" Optional="false" Type="SquadList" BindID="36">121</InputMapping>
+					<InputMapping Name="Location" SigID="-1" Optional="false" Type="Location" BindID="3">102</InputMapping>
+					<InputMapping Name="Radius" SigID="-1" Optional="false" Type="Distance" BindID="4">103</InputMapping>
+					<InputMapping Name="Targets" SigID="-1" Optional="false" Type="EntityFilterSet" BindID="24">83</InputMapping>
+					<TriggerInput Name="Go" BindID="0,Activate" Color="0,255,0">2,Effect.True;</TriggerInput>
+					<TriggerInput Name="Stop" BindID="5,Activate" Color="255,0,0" />
+				</TriggerTemplateMapping>
+			</TriggerMappings>
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Baron1Script" Type="Scenario" NextTriggerVarID="245" NextTriggerID="68" NextConditionID="61" NextEffectID="87" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="2" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectionForm_01</TriggerVar>
+					<TriggerVar ID="4" Type="Vector" Name="FacingVar1" IsNull="true" />
+					<TriggerVar ID="5" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="6" Type="Vector" Name="FlyInStartVar1" IsNull="true" />
+					<TriggerVar ID="7" Type="Vector" Name="FlyInEndVar1" IsNull="true" />
+					<TriggerVar ID="8" Type="Vector" Name="RallyPointVar1" IsNull="true" />
+					<TriggerVar ID="9" Type="Bool" Name="AttackMoveRallyPointVar1" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="10" Type="Squad" Name="CreatedSquadVar1" IsNull="true" />
+					<TriggerVar ID="11" Type="SquadList" Name="Flood 1" IsNull="false" />
+					<TriggerVar ID="12" Type="Bool" Name="SquadListClearExistingVar1" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="19" Type="Vector" Name="" IsNull="false">_Flood1Area4_,_28.Position_</TriggerVar>
+					<TriggerVar ID="27" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectionForm_01</TriggerVar>
+					<TriggerVar ID="29" Type="Vector" Name="FacingVar2" IsNull="true" />
+					<TriggerVar ID="30" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="31" Type="Vector" Name="FlyInStartVar2" IsNull="true" />
+					<TriggerVar ID="32" Type="Vector" Name="FlyInEndVar2" IsNull="true" />
+					<TriggerVar ID="33" Type="Vector" Name="RallyPointVar2" IsNull="true" />
+					<TriggerVar ID="34" Type="Bool" Name="AttackMoveRallyPointVar2" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="35" Type="Squad" Name="CreatedSquadVar2" IsNull="true" />
+					<TriggerVar ID="37" Type="Bool" Name="SquadListClearExistingVar2" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="45" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectedCarrier_01</TriggerVar>
+					<TriggerVar ID="47" Type="Vector" Name="FacingVar3" IsNull="true" />
+					<TriggerVar ID="48" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="49" Type="Vector" Name="FlyInStartVar3" IsNull="true" />
+					<TriggerVar ID="50" Type="Vector" Name="FlyInEndVar3" IsNull="true" />
+					<TriggerVar ID="51" Type="Vector" Name="RallyPointVar3" IsNull="true" />
+					<TriggerVar ID="52" Type="Bool" Name="AttackMoveRallyPointVar3" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="53" Type="Squad" Name="CreatedSquadVar3" IsNull="true" />
+					<TriggerVar ID="55" Type="Bool" Name="SquadListClearExistingVar3" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="63" Type="ProtoSquad" Name="" IsNull="false">fld_inf_rhinodillo_01</TriggerVar>
+					<TriggerVar ID="65" Type="Vector" Name="FacingVar4" IsNull="true" />
+					<TriggerVar ID="66" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="67" Type="Vector" Name="FlyInStartVar4" IsNull="true" />
+					<TriggerVar ID="68" Type="Vector" Name="FlyInEndVar4" IsNull="true" />
+					<TriggerVar ID="69" Type="Vector" Name="RallyPointVar4" IsNull="true" />
+					<TriggerVar ID="70" Type="Bool" Name="AttackMoveRallyPointVar4" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="71" Type="Squad" Name="CreatedSquadVar4" IsNull="true" />
+					<TriggerVar ID="73" Type="Bool" Name="SquadListClearExistingVar4" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="75" Type="Vector" Name="" IsNull="false">_Area19_,_23.Position_</TriggerVar>
+					<TriggerVar ID="76" Type="Float" Name="" IsNull="false">_Area19_,_23.Radius_</TriggerVar>
+					<TriggerVar ID="79" Type="Diplomacy" Name="" IsNull="false">Enemy</TriggerVar>
+					<TriggerVar ID="80" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="81" Type="Team" Name="CompareTeamVar1" IsNull="true" />
+					<TriggerVar ID="82" Type="Bool" Name="InvertFilterVar1" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="83" Type="EntityFilterSet" Name="EntityFilterSetVar83" IsNull="false" />
+					<TriggerVar ID="84" Type="Trigger" Name="TriggerVar3" IsNull="false">5</TriggerVar>
+					<TriggerVar ID="85" Type="Trigger" Name="TriggerVar4" IsNull="false">2</TriggerVar>
+					<TriggerVar ID="86" Type="Trigger" Name="TriggerVar5" IsNull="false">1</TriggerVar>
+					<TriggerVar ID="102" Type="Vector" Name="" IsNull="false">_Area19_,_19.Position_</TriggerVar>
+					<TriggerVar ID="103" Type="Float" Name="" IsNull="false">_Area19_,_19.Radius_</TriggerVar>
+					<TriggerVar ID="111" Type="Vector" Name="" IsNull="false">_Flood2Area4_,_32.Position_</TriggerVar>
+					<TriggerVar ID="112" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectionForm_01</TriggerVar>
+					<TriggerVar ID="114" Type="Vector" Name="FacingVar5" IsNull="true" />
+					<TriggerVar ID="115" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="116" Type="Vector" Name="FlyInStartVar5" IsNull="true" />
+					<TriggerVar ID="117" Type="Vector" Name="FlyInEndVar5" IsNull="true" />
+					<TriggerVar ID="118" Type="Vector" Name="RallyPointVar5" IsNull="true" />
+					<TriggerVar ID="119" Type="Bool" Name="AttackMoveRallyPointVar5" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="120" Type="Squad" Name="CreatedSquadVar5" IsNull="true" />
+					<TriggerVar ID="121" Type="SquadList" Name="Flood 2" IsNull="false" />
+					<TriggerVar ID="122" Type="Bool" Name="SquadListClearExistingVar5" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="130" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectionForm_01</TriggerVar>
+					<TriggerVar ID="132" Type="Vector" Name="FacingVar6" IsNull="true" />
+					<TriggerVar ID="133" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="134" Type="Vector" Name="FlyInStartVar6" IsNull="true" />
+					<TriggerVar ID="135" Type="Vector" Name="FlyInEndVar6" IsNull="true" />
+					<TriggerVar ID="136" Type="Vector" Name="RallyPointVar6" IsNull="true" />
+					<TriggerVar ID="137" Type="Bool" Name="AttackMoveRallyPointVar6" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="138" Type="Squad" Name="CreatedSquadVar6" IsNull="true" />
+					<TriggerVar ID="140" Type="Bool" Name="SquadListClearExistingVar6" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="148" Type="ProtoSquad" Name="" IsNull="false">fld_inf_infectedCarrier_01</TriggerVar>
+					<TriggerVar ID="150" Type="Vector" Name="FacingVar7" IsNull="true" />
+					<TriggerVar ID="151" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="152" Type="Vector" Name="FlyInStartVar7" IsNull="true" />
+					<TriggerVar ID="153" Type="Vector" Name="FlyInEndVar7" IsNull="true" />
+					<TriggerVar ID="154" Type="Vector" Name="RallyPointVar7" IsNull="true" />
+					<TriggerVar ID="155" Type="Bool" Name="AttackMoveRallyPointVar7" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="156" Type="Squad" Name="CreatedSquadVar7" IsNull="true" />
+					<TriggerVar ID="158" Type="Bool" Name="SquadListClearExistingVar7" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="166" Type="ProtoSquad" Name="" IsNull="false">fld_inf_rhinodillo_01</TriggerVar>
+					<TriggerVar ID="168" Type="Vector" Name="FacingVar8" IsNull="true" />
+					<TriggerVar ID="169" Type="Player" Name="" IsNull="false">3</TriggerVar>
+					<TriggerVar ID="170" Type="Vector" Name="FlyInStartVar8" IsNull="true" />
+					<TriggerVar ID="171" Type="Vector" Name="FlyInEndVar8" IsNull="true" />
+					<TriggerVar ID="172" Type="Vector" Name="RallyPointVar8" IsNull="true" />
+					<TriggerVar ID="173" Type="Bool" Name="AttackMoveRallyPointVar8" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="174" Type="Squad" Name="CreatedSquadVar8" IsNull="true" />
+					<TriggerVar ID="176" Type="Bool" Name="SquadListClearExistingVar8" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="177" Type="Vector" Name="" IsNull="false">_Flood1Area1_,_25.Position_</TriggerVar>
+					<TriggerVar ID="178" Type="Vector" Name="" IsNull="false">_Flood1Area2_,_26.Position_</TriggerVar>
+					<TriggerVar ID="179" Type="Vector" Name="" IsNull="false">_Flood1Area3_,_27.Position_</TriggerVar>
+					<TriggerVar ID="180" Type="Vector" Name="" IsNull="false">_Flood2Area1_,_29.Position_</TriggerVar>
+					<TriggerVar ID="181" Type="Vector" Name="" IsNull="false">_Flood2Area2_,_30.Position_</TriggerVar>
+					<TriggerVar ID="182" Type="Vector" Name="" IsNull="false">_Flood2Area3_,_31.Position_</TriggerVar>
+					<TriggerVar ID="236" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="0" Name="Startup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="123" Y="205" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="12" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">84</Input>
+							</Effect>
+							<Effect ID="78" Type="SetMinimapSkirtMirroring" DBID="1054" Version="1" CommentOut="false">
+								<Input Name="EnableMirroring" SigID="1" Optional="false">236</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="1" Name="Add Creeps Reactor 1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="true" ConditionalTrigger="false" X="627" Y="610" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="2" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+								<Input Name="ProtoSquad" SigID="1" Optional="false">2</Input>
+								<Input Name="CreateLocation" SigID="2" Optional="false">177</Input>
+								<Input Name="Facing" SigID="12" Optional="true">4</Input>
+								<Input Name="SquadOwner" SigID="3" Optional="false">5</Input>
+								<Input Name="FlyInStart" SigID="8" Optional="true">6</Input>
+								<Input Name="FlyInEnd" SigID="9" Optional="true">7</Input>
+								<Input Name="RallyPoint" SigID="10" Optional="true">8</Input>
+								<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">9</Input>
+								<Output Name="CreatedSquad" SigID="4" Optional="true">10</Output>
+								<Output Name="AddToSquadList" SigID="5" Optional="true">11</Output>
+								<Output Name="SquadListClearExisting" SigID="6" Optional="true">12</Output>
+							</Effect>
+							<Effect ID="5" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+								<Input Name="ProtoSquad" SigID="1" Optional="false">27</Input>
+								<Input Name="CreateLocation" SigID="2" Optional="false">178</Input>
+								<Input Name="Facing" SigID="12" Optional="true">29</Input>
+								<Input Name="SquadOwner" SigID="3" Optional="false">30</Input>
+								<Input Name="FlyInStart" SigID="8" Optional="true">31</Input>
+								<Input Name="FlyInEnd" SigID="9" Optional="true">32</Input>
+								<Input Name="RallyPoint" SigID="10" Optional="true">33</Input>
+								<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">34</Input>
+								<Output Name="CreatedSquad" SigID="4" Optional="true">35</Output>
+								<Output Name="AddToSquadList" SigID="5" Optional="true">11</Output>
+								<Output Name="SquadListClearExisting" SigID="6" Optional="true">37</Output>
+							</Effect>
+							<Effect ID="7" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+								<Input Name="ProtoSquad" SigID="1" Optional="false">45</Input>
+								<Input Name="CreateLocation" SigID="2" Optional="false">179</Input>
+								<Input Name="Facing" SigID="12" Optional="true">47</Input>
+								<Input Name="SquadOwner" SigID="3" Optional="false">48</Input>
+								<Input Name="FlyInStart" SigID="8" Optional="true">49</Input>
+								<Input Name="FlyInEnd" SigID="9" Optional="true">50</Input>
+								<Input Name="RallyPoint" SigID="10" Optional="true">51</Input>
+								<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">52</Input>
+								<Output Name="CreatedSquad" SigID="4" Optional="true">53</Output>
+								<Output Name="AddToSquadList" SigID="5" Optional="true">11</Output>
+								<Output Name="SquadListClearExisting" SigID="6" Optional="true">55</Output>
+							</Effect>
+							<Effect ID="9" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+								<Input Name="ProtoSquad" SigID="1" Optional="false">63</Input>
+								<Input Name="CreateLocation" SigID="2" Optional="false">19</Input>
+								<Input Name="Facing" SigID="12" Optional="true">65</Input>
+								<Input Name="SquadOwner" SigID="3" Optional="false">66</Input>
+								<Input Name="FlyInStart" SigID="8" Optional="true">67</Input>
+								<Input Name="FlyInEnd" SigID="9" Optional="true">68</Input>
+								<Input Name="RallyPoint" SigID="10" Optional="true">69</Input>
+								<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">70</Input>
+								<Output Name="CreatedSquad" SigID="4" Optional="true">71</Output>
+								<Output Name="AddToSquadList" SigID="5" Optional="true">11</Output>
+								<Output Name="SquadListClearExisting" SigID="6" Optional="true">73</Output>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="2" Name="Add Creeps Reactor 2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="true" ConditionalTrigger="false" X="1467" Y="135" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="18" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+								<Input Name="ProtoSquad" SigID="1" Optional="false">112</Input>
+								<Input Name="CreateLocation" SigID="2" Optional="false">180</Input>
+								<Input Name="Facing" SigID="12" Optional="true">114</Input>
+								<Input Name="SquadOwner" SigID="3" Optional="false">115</Input>
+								<Input Name="FlyInStart" SigID="8" Optional="true">116</Input>
+								<Input Name="FlyInEnd" SigID="9" Optional="true">117</Input>
+								<Input Name="RallyPoint" SigID="10" Optional="true">118</Input>
+								<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">119</Input>
+								<Output Name="CreatedSquad" SigID="4" Optional="true">120</Output>
+								<Output Name="AddToSquadList" SigID="5" Optional="true">121</Output>
+								<Output Name="SquadListClearExisting" SigID="6" Optional="true">122</Output>
+							</Effect>
+							<Effect ID="20" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+								<Input Name="ProtoSquad" SigID="1" Optional="false">130</Input>
+								<Input Name="CreateLocation" SigID="2" Optional="false">181</Input>
+								<Input Name="Facing" SigID="12" Optional="true">132</Input>
+								<Input Name="SquadOwner" SigID="3" Optional="false">133</Input>
+								<Input Name="FlyInStart" SigID="8" Optional="true">134</Input>
+								<Input Name="FlyInEnd" SigID="9" Optional="true">135</Input>
+								<Input Name="RallyPoint" SigID="10" Optional="true">136</Input>
+								<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">137</Input>
+								<Output Name="CreatedSquad" SigID="4" Optional="true">138</Output>
+								<Output Name="AddToSquadList" SigID="5" Optional="true">121</Output>
+								<Output Name="SquadListClearExisting" SigID="6" Optional="true">140</Output>
+							</Effect>
+							<Effect ID="22" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+								<Input Name="ProtoSquad" SigID="1" Optional="false">148</Input>
+								<Input Name="CreateLocation" SigID="2" Optional="false">182</Input>
+								<Input Name="Facing" SigID="12" Optional="true">150</Input>
+								<Input Name="SquadOwner" SigID="3" Optional="false">151</Input>
+								<Input Name="FlyInStart" SigID="8" Optional="true">152</Input>
+								<Input Name="FlyInEnd" SigID="9" Optional="true">153</Input>
+								<Input Name="RallyPoint" SigID="10" Optional="true">154</Input>
+								<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">155</Input>
+								<Output Name="CreatedSquad" SigID="4" Optional="true">156</Output>
+								<Output Name="AddToSquadList" SigID="5" Optional="true">121</Output>
+								<Output Name="SquadListClearExisting" SigID="6" Optional="true">158</Output>
+							</Effect>
+							<Effect ID="24" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+								<Input Name="ProtoSquad" SigID="1" Optional="false">166</Input>
+								<Input Name="CreateLocation" SigID="2" Optional="false">111</Input>
+								<Input Name="Facing" SigID="12" Optional="true">168</Input>
+								<Input Name="SquadOwner" SigID="3" Optional="false">169</Input>
+								<Input Name="FlyInStart" SigID="8" Optional="true">170</Input>
+								<Input Name="FlyInEnd" SigID="9" Optional="true">171</Input>
+								<Input Name="RallyPoint" SigID="10" Optional="true">172</Input>
+								<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">173</Input>
+								<Output Name="CreatedSquad" SigID="4" Optional="true">174</Output>
+								<Output Name="AddToSquadList" SigID="5" Optional="true">121</Output>
+								<Output Name="SquadListClearExisting" SigID="6" Optional="true">176</Output>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="5" Name="Find Enemies" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="true" ConditionalTrigger="false" X="176" Y="499" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="11" Type="FilterAddDiplomacy" DBID="379" Version="1" CommentOut="false">
+								<Input Name="Diplomacy" SigID="2" Optional="false">79</Input>
+								<Input Name="ComparePlayer" SigID="3" Optional="true">80</Input>
+								<Input Name="CompareTeam" SigID="4" Optional="true">81</Input>
+								<Input Name="InvertFilter" SigID="5" Optional="true">82</Input>
+								<Output Name="EntityFilterSet" SigID="1" Optional="false">83</Output>
+							</Effect>
+							<Effect ID="13" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">85</Input>
+							</Effect>
+							<Effect ID="14" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">86</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<NextID>639</NextID>
+	<EditorOnlyData>
+		<HelperAreas>
+			<HelperAreaObject>
+				<Name>Flood1Area4</Name>
+				<ID>28</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>588.398682,6.83279991,277.072906</Position>
+				<Direction>0.389400005,0,0.92110002</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Flood2Area1</Name>
+				<ID>29</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>142.044098,6.64340019,326.650909</Position>
+				<Direction>0.389400005,0,0.92110002</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+		</HelperAreas>
+		<HelperAreaBoxes />
+		<HelpePositions>
+			<HelpePositionObject>
+				<Name>Position67</Name>
+				<ID>67</ID>
+				<Group>-1</Group>
+				<Position>384,47.9618988,384</Position>
+			</HelpePositionObject>
+		</HelpePositions>
+		<EditorOnlyObjects />
+	</EditorOnlyData>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>768</SimBoundsMaxX>
+	<SimBoundsMaxZ>768</SimBoundsMaxZ>
+	<SoundBank>amb_shield_ext.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Cavern</EnvironmentReverbPreset>
+	<ScenarioWorld>SWE</ScenarioWorld>
+	<AllowVeterancy>true</AllowVeterancy>
+	<GlobalExcludeObjects />
+</Scenario>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">BeaconHill_2</Terrain>
+	<Sky>environment\sky\sky_dome_01</Sky>
+	<TerrainEnv>environment\sky\cloudy_sky_dome_en.ddx</TerrainEnv>
+	<Lightset>BeaconHill_2</Lightset>
+	<Pathing>BeaconHill_2</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Neutral</Team>
+			<Team ID="2">Neutral</Team>
+			<Team ID="3">Neutral</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Grouped" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="1" Position="379.376587,0,297.626007" Forward="-1,0,0.00159999996" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="2" Position="384.184509,0,732.584717" Forward="1,0,-0.000500000024" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="1" Position="639.728577,0.850300014,302.545105" Forward="-1,-0.000899999985,0.00710000005" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="2" Position="641.551514,0.139200002,729.481323" Forward="1,0,-0.00949999969" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="5" Number="5" Position="578.796326,0.00159999996,254.143402" Forward="-0.999599993,0,-0.0292000007" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player3" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="3" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player4" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="4" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Creeps" LocalisedDisplayName="25966,Rebels" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Objectives />
+	<Minimap>
+		<MinimapTexture />
+	</Minimap>
+	<BuildingTextureIndexUNSC>0</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>0</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres>
+			<Sphere Name="DesignSphere380" Position="187.488007,0.409200013,403.346008" Radius="40" ID="380">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere Name="DesignSphere384" Position="511.2211,0,179.120605" Radius="50" ID="384">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere Name="DesignSphere386" Position="815.951721,0,393.945404" Radius="40" ID="386">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere Name="DesignSphere388" Position="816.032288,0,634.310425" Radius="40" ID="388">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere Name="DesignSphere394" Position="191.660095,0,628.955017" Radius="40" ID="394">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere Name="DesignSphere596" Position="513.80957,0,845.004272" Radius="50" ID="596">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere Name="DesignSphere792" Position="222.639008,0,508.632507" Radius="40" ID="792">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere Name="DesignSphere793" Position="790.969971,0,515.21283" Radius="40" ID="793">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+		</Spheres>
+		<Lines />
+	</DesignObjects>
+	<ObjectGroups />
+	<Objects>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="game_base_Socket_01_123" ID="123" Position="875.799988,0,155.350494" Forward="-0.701200008,0,-0.713" Right="-0.713,0,0.701200008" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="game_base_Socket_01_823" ID="823" Position="154.7435,9.92710018,169.132202" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="game_base_Socket_01_94" ID="94" Position="159.865005,0,857.560913" Forward="0.632000029,0,0.774999976" Right="0.774999976,0,-0.632000029" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="game_base_Socket_01_95" ID="95" Position="853.141479,0,862.95459" Forward="0.67839998,0,-0.734700024" Right="-0.734700024,0,-0.67839998" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_miniBase_01_619" ID="619" Position="187.199707,0,631.803223" Forward="0.00190000003,0,1" Right="1,0,-0.00190000003" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_miniBase_01_620" ID="620" Position="181.867599,0,404.010803" Forward="0.00879999995,0,1" Right="1,0,-0.00879999995" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_miniBase_01_623" ID="623" Position="823.104675,0,391.138" Forward="-0.00490000006,0,-1" Right="-1,0,0.00490000006" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_miniBase_01_624" ID="624" Position="821.790222,0,632.297607" Forward="-0.00789999962,0,-1" Right="-1,0,0.00789999962" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_PelicanMediumCover_01_783" ID="783" Position="535.065308,29.2472992,511.365814" Forward="0.323900014,-0.0113000004,0.94599998" Right="0.946099997,0,-0.323900014" Group="-1" VisualVariationIndex="0">hook_bldg_PelicanMediumCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_PelicanMediumCover_01_786" ID="786" Position="485.769714,30.8700008,512.565796" Forward="-0.457800001,0,-0.889100015" Right="-0.889100015,0,0.457800001" Group="-1" VisualVariationIndex="0">hook_bldg_PelicanMediumCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_WarthogCover_02_148" ID="148" Position="599.092102,17.8567009,435.968109" Forward="0.739499986,0,0.673200011" Right="0.673200011,0,-0.739499986" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_WarthogCover_02_149" ID="149" Position="395.292511,15.4265003,448.072296" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_WarthogCover_02_150" ID="150" Position="415.306091,18.7448997,572.31488" Forward="0.454100013,0,0.890999973" Right="0.890999973,0,-0.454100013" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_WarthogCover_02_151" ID="151" Position="509.599091,11.5479002,638.966125" Forward="0.798099995,0,0.602500021" Right="0.602500021,0,-0.798099995" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_WarthogCover_02_152" ID="152" Position="609.13562,17.3250008,575.299927" Forward="0.2958,0,0.955200016" Right="0.955200016,0,-0.2958" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_WarthogCover_02_154" ID="154" Position="692.843201,11.6533003,521.156982" Forward="-0.868700027,0,0.495400012" Right="0.495400012,0,0.868700027" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_WarthogCover_02_155" ID="155" Position="311.062103,8.6093998,501.627197" Forward="-0.939899981,0,-0.341399997" Right="-0.341399997,0,0.939899981" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_WarthogCover_02_158" ID="158" Position="509.840088,13.6090002,394.222198" Forward="-0.737900019,0,-0.674899995" Right="-0.674899995,0,0.737900019" Group="-1" VisualVariationIndex="0">hook_bldg_WarthogCover_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bonus_reactor_01_358" ID="358" Position="510.919006,0,170.092102" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_bonus_reactor_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bonus_reactor_01_360" ID="360" Position="514.980591,0,845.842712" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_bonus_reactor_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_spawner_supply3hole_01_787" ID="787" Position="224.011597,0,509.703003" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_spawner_supply3hole_01_788" ID="788" Position="794.362915,0,514.109985" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepDifficulty_easy_01_397" ID="397" Position="193.873199,0,424.996613" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepDifficulty_easy_01_398" ID="398" Position="791.323425,0,653.393982" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepDifficulty_easy_01_405" ID="405" Position="795.063477,0.627699971,415.665314" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepDifficulty_easy_01_801" ID="801" Position="776.440979,0,506.937012" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepDifficulty_easy_01_802" ID="802" Position="241.577103,0.756799996,496.648407" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepDifficulty_easy_01_810" ID="810" Position="194.864304,0.625699997,607.704529" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepDifficulty_medium_01_408" ID="408" Position="515.352905,0,823.720398" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepDifficulty_medium_01_413" ID="413" Position="506.723907,0,195.708496" Forward="-0.96359998,0,0.267500013" Right="0.267500013,0,0.96359998" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepReward_large_01_416" ID="416" Position="210.000504,0,632.99231" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_large_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepReward_medium_01_418" ID="418" Position="200.501801,0,431.982086" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepReward_medium_01_419" ID="419" Position="794.595886,0,655.772705" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepReward_medium_01_422" ID="422" Position="785.888489,2.33150005,402.397797" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepReward_medium_01_429" ID="429" Position="507.691895,0,821.197571" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepReward_medium_01_430" ID="430" Position="527.080322,0,193.089401" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepReward_small_01_800" ID="800" Position="781.449585,0,531.265991" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_creepReward_small_01_803" ID="803" Position="244.556793,0,524.73407" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_367" ID="367" Position="198.001297,0,209.286896" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_368" ID="368" Position="406.476715,18.5055008,567.144775" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_369" ID="369" Position="324.672089,9.40400028,500.576508" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_370" ID="370" Position="403.771698,17.1879005,449.986511" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_371" ID="371" Position="224.695099,0,801.319519" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_372" ID="372" Position="793.585388,0,814.740784" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_373" ID="373" Position="600.114075,20.3859997,565.72998" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_374" ID="374" Position="678.246826,12.0466995,521.439087" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_375" ID="375" Position="602.904419,18.4008007,445.845703" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_377" ID="377" Position="507.530914,31.0261002,520.536194" Forward="0.29550001,0,0.955299973" Right="0.955299973,0,-0.29550001" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_566" ID="566" Position="815.077881,0,207.095703" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_581" ID="581" Position="509.414703,15.4394999,403.763611" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_582" ID="582" Position="510.7164,12.6934004,631.773315" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_583" ID="583" Position="516.411072,0.0120999999,733.133423" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_584" ID="584" Position="510.34491,0.129700005,308.830292" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_585" ID="585" Position="276.034393,1.96350002,383.738892" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_586" ID="586" Position="282.544189,2.7657001,618.452087" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_587" ID="587" Position="708.519592,7.13999987,619.408325" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_588" ID="588" Position="703.285217,6.01929998,404.813293" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_685" ID="685" Position="318.377197,9.06499958,492.704803" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_686" ID="686" Position="423.531891,19.7525005,572.47052" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_687" ID="687" Position="386.644501,13.6746998,443.692108" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_688" ID="688" Position="517.675171,12.3508997,386.904114" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_689" ID="689" Position="590.588074,18.1061993,427.669312" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_690" ID="690" Position="701.571472,11.4196997,512.773682" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_691" ID="691" Position="617.367615,15.2219,581.864075" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_692" ID="692" Position="502.231293,9.4993,650.599182" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_697" ID="697" Position="517.360413,31.1222992,500.69101" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_699" ID="699" Position="329.008392,7.49130011,578.492798" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_700" ID="700" Position="657.987915,11.3893995,429.084106" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_701" ID="701" Position="670.677979,9.89669991,605.950989" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_702" ID="702" Position="335.490997,7.10699987,425.176514" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_703" ID="703" Position="754.512329,0.00949999969,699.513123" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_704" ID="704" Position="232.289307,0,689.975586" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_705" ID="705" Position="223.757904,0,305.760803" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_706" ID="706" Position="756.366089,0.00939999986,324.926605" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_707" ID="707" Position="281.256989,0,756.343628" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_708" ID="708" Position="737.968018,0.00240000011,779.167786" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_709" ID="709" Position="727.888306,0.00039999999,261.639191" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_710" ID="710" Position="254.5504,0,256.437012" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_711" ID="711" Position="400.138,14.1042995,437.30661" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_712" ID="712" Position="308.570801,8.40100002,516.575317" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_713" ID="713" Position="407.719086,13.8122997,591.200989" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_714" ID="714" Position="523.207581,9.60830021,652.766785" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_715" ID="715" Position="685.120117,11.7833004,511.847992" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_716" ID="716" Position="618.844971,15.6662998,571.37677" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_717" ID="717" Position="592.39917,20.0914001,442.235291" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_718" ID="718" Position="521.67749,15.6032,400.349915" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_719" ID="719" Position="517.625427,0,762.039429" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_720" ID="720" Position="511.5737,21.8013,585.435791" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_721" ID="721" Position="505.29599,0,257.092285" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_722" ID="722" Position="512.586182,23.8003006,442.670807" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_725" ID="725" Position="514.231873,30.7425003,512.019714" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_731" ID="731" Position="195.879807,0,431.949585" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_732" ID="732" Position="195.693604,-0.00579999993,382.397705" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_733" ID="733" Position="200.346802,0,605.590881" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_734" ID="734" Position="203.717697,0,610.665405" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_745" ID="745" Position="489.816711,0.000600000028,199.803894" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_746" ID="746" Position="526.936218,0,202.789993" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_749" ID="749" Position="806.262085,0,372.49231" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_750" ID="750" Position="806.783081,0.0513000004,416.650604" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_752" ID="752" Position="805.471619,0,664.846008" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_753" ID="753" Position="784.923523,0,632.424011" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_763" ID="763" Position="495.104401,0,824.853088" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_764" ID="764" Position="535.447388,0,827.302002" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_795" ID="795" Position="233.845703,0.120099999,489.212891" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_796" ID="796" Position="230.875397,0,527.835571" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_797" ID="797" Position="786.163086,0,538.491516" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_infantry_01_798" ID="798" Position="780.440796,0,494.223999" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_infantry_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_736" ID="736" Position="215.459702,0,658.177795" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_738" ID="738" Position="213.513596,0,409.18811" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_740" ID="740" Position="491.494598,0.0170000009,169.641602" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_741" ID="741" Position="532.065674,0,171.195602" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_754" ID="754" Position="789.628723,0,641.578979" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_756" ID="756" Position="791.208923,0.00430000015,392.019989" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_758" ID="758" Position="536.538086,0,852.772278" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_759" ID="759" Position="492.590393,0,850.891296" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_794" ID="794" Position="243.5336,0,508.925507" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_rebelMarker_sniper_01_799" ID="799" Position="772.633423,0,516.896118" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_rebelMarker_sniper_01</Object>
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="8" NextTriggerID="7" NextConditionID="0" NextEffectID="7" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_harvest</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="364" Y="199" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="8" NextTriggerID="7" NextConditionID="0" NextEffectID="7" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_harvest</TriggerVar>
+					<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="364" Y="199" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">0</Input>
+								<Input Name="Queue" SigID="3" Optional="true">1</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<TriggerSystem Name="BeaconHill_2" Type="Scenario" NextTriggerVarID="53" NextTriggerID="53" NextConditionID="53" NextEffectID="53" External="false">
+		<TriggerGroups />
+		<TriggerVars />
+		<Triggers />
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="BeaconHill_2" Type="Scenario" NextTriggerVarID="53" NextTriggerID="53" NextConditionID="53" NextEffectID="53" External="false">
+				<TriggerGroups />
+				<TriggerVars />
+				<Triggers />
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<EditorOnlyData>
+		<HelperAreas />
+		<HelperAreaBoxes />
+		<HelpePositions />
+		<EditorOnlyObjects />
+	</EditorOnlyData>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>1024</SimBoundsMaxX>
+	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
+	<SoundBank>amb_harvest.bnk</SoundBank>
+	<ScenarioWorld>Harvest</ScenarioWorld>
+	<EnvironmentReverbPreset>Reverb_Frozen</EnvironmentReverbPreset>
+	<AllowVeterancy>true</AllowVeterancy>
+	<GlobalExcludeObjects />
+</Scenario>

@@ -1,0 +1,2447 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">Labyrinth</Terrain>
+	<Sky />
+	<TerrainEnv>environment\sky\beta_2v2_halo.ddx</TerrainEnv>
+	<Lightset>Labyrinth</Lightset>
+	<Pathing>Labyrinth</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Neutral</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Neutral</Team>
+			<Team ID="2">Neutral</Team>
+			<Team ID="3">Neutral</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Grouped" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="1" Position="373.790405,-9.90100002,895.521912" Forward="0.999599993,0,-0.0292000007" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="1188" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="1188" />
+		<Position Player="-1" Number="2" Position="653.350098,-10.6660995,121.100403" Forward="-0.999599993,0,-0.0292000007" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="1187" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="1187" />
+		<Position Player="-1" Number="2" Position="364.205414,-12.8746004,123.068298" Forward="-0.999599993,0,-0.0292000007" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="1186" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1186" />
+		<Position Player="-1" Number="1" Position="653.291687,-10.3830996,891.250305" Forward="0.999599993,0,-0.0292000007" DefaultCamera="true" CameraYaw="200" CameraPitch="60" CameraZoom="40" UnitStartObject1="1189" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="1189" />
+		<Position Player="5" Number="5" Position="512.273926,-20.3644009,525.344421" Forward="0,0,1" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player3" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="3" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player4" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="4" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Creeps" LocalisedDisplayName="25565,Forerunner" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Objectives>
+		<MaxObjectiveID>-1</MaxObjectiveID>
+	</Objectives>
+	<Minimap>
+		<MinimapTexture />
+	</Minimap>
+	<BuildingTextureIndexUNSC>0</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>0</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres>
+			<Sphere ID="2899" Name="AIDesignSphere2899" Position="774.419128,-7.3611002,94.4163971" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2900" Name="AIDesignSphere2900" Position="505.515991,-18.4153004,320.5336" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2901" Name="AIDesignSphere2901" Position="506.846985,-18.4272995,696.93457" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2902" Name="AIDesignSphere2902" Position="232.816299,-3.83189988,929.928528" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2903" Name="AIDesignSphere2903" Position="500.114288,-17.4153996,504.721588" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2904" Name="AIDesignSphere2904" Position="681.42749,1.61039996,395.947205" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2905" Name="AIDesignSphere2905" Position="868.295471,1.61039996,678.905518" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2906" Name="AIDesignSphere2906" Position="352.083099,1.61039996,644.394409" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2907" Name="AIDesignSphere2907" Position="134.410095,1.08560002,323.880615" Radius="4">
+				<Data>
+					<Type>AIWaypoint</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2938" Name="DesignSphere2938" Position="69.6611023,1.61039996,556.104797" Radius="40">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2948" Name="DesignSphere2948" Position="360.894501,1.61039996,405.500214" Radius="70">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2958" Name="DesignSphere2958" Position="660.928406,1.61039996,621.299622" Radius="70">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2965" Name="DesignSphere2965" Position="897.103271,2.71630001,886.318481" Radius="70">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2971" Name="DesignSphere2971" Position="127.557198,-3.52160001,887.95697" Radius="70">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2977" Name="DesignSphere2977" Position="128.968002,-0.330900013,129.024704" Radius="70">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2983" Name="DesignSphere2983" Position="896.154419,0.874199986,143.007797" Radius="70">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="2989" Name="DesignSphere2989" Position="511.126801,-17.4151993,510.612213" Radius="40">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+			<Sphere ID="5167" Name="DesignSphere5167" Position="923.469421,1.61360002,457.284485" Radius="30">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+		</Spheres>
+		<Lines />
+	</DesignObjects>
+	<ObjectGroups>
+		<ObjectGroup ID="1" Name="maze" Visible="true" Locked="false" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="2" Name="sails" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="3" Name="glassbridge" Visible="true" Locked="false" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="4" Name="foliage" Visible="true" Locked="false" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="5" Name="rocks" Visible="true" Locked="false" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="6" Name="lakes" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="7" Name="AI" Visible="false" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="8" Name="Test Bases" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="9" Name="Flood Markers" Visible="false" Locked="true" BB="false" ExploreGroup="false" />
+	</ObjectGroups>
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="1156" TintValue="1" EditorName="game_base_Socket_01_1156" Position="896.173279,0.2958,148.419296" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="1153" TintValue="1" EditorName="game_base_Socket_01_1153" Position="663.546997,1.61039996,626.485779" Forward="-1,0,-0.00829999987" Right="-0.00829999987,0,1" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="1159" TintValue="1" EditorName="game_base_Socket_01_1159" Position="126.906998,-3.39630008,883.904602" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="1158" TintValue="1" EditorName="game_base_Socket_01_1158" Position="896.026306,2.66170001,879.713379" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="1155" TintValue="1" EditorName="game_base_Socket_01_1155" Position="359.152588,1.61039996,399.833588" Forward="0.999800026,0,0.0186999999" Right="0.0186999999,0,-0.999800026" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="1157" TintValue="1" EditorName="game_base_Socket_01_1157" Position="132.569,-0.330900013,139.343094" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="1344" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1344" Position="278.120911,1.61039996,642.057922" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1341" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1341" Position="550.289795,-17.4153004,373.691589" Forward="-0.996200025,0,0.0873999968" Right="0.0873999968,0,0.996200025" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1342" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1342" Position="475.979004,-17.4153004,642.464478" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1343" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1343" Position="551.516724,-17.4153004,634.69281" Forward="-0.993700027,0,-0.112199999" Right="-0.112199999,0,0.993700027" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1340" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1340" Position="472.065796,-17.4179001,386.810699" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1346" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1346" Position="742.673584,1.64129996,367.557892" Forward="-0.94630003,0,-0.323300004" Right="-0.323300004,0,0.94630003" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1347" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1347" Position="83.2036972,1.59500003,319.517914" Forward="0.991699994,0,-0.128900006" Right="-0.128900006,0,-0.991699994" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="1345" TintValue="1" EditorName="hook_bldg_sniperplatform_01_1345" Position="921.000977,1.61039996,699.405884" Forward="-0.96359998,0,0.267500013" Right="0.267500013,0,0.96359998" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" ID="2860" TintValue="1" EditorName="hook_bldg_teleporter2way_01_2860" Position="803.711121,1.8592,624.810425" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">hook_bldg_teleporter2way_01</Object>
+		<Object IsSquad="false" Player="0" ID="2859" TintValue="1" EditorName="hook_bldg_teleporter2way_01_2859" Position="194.361496,1.61039996,407.203491" Forward="-0.644200027,0,0.764800012" Right="0.764800012,0,0.644200027" Group="-1" VisualVariationIndex="0">hook_bldg_teleporter2way_01</Object>
+		<Object IsSquad="false" Player="0" ID="1303" TintValue="1" EditorName="hook_store_sentinel_02_1303" Position="64.3583984,1.61039996,557.978027" Forward="0.644200027,0,0.764800012" Right="0.764800012,0,-0.644200027" Group="-1" VisualVariationIndex="0">hook_store_sentinel_02</Object>
+		<Object IsSquad="false" Player="0" ID="1304" TintValue="1" EditorName="hook_store_sentinel_02_1304" Position="926.010681,1.62820005,458.83371" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="-1" VisualVariationIndex="0">hook_store_sentinel_02</Object>
+		<Object IsSquad="false" Player="0" ID="1136" TintValue="1" EditorName="rsrc_supplies_crate_01_1136" Position="478.781494,-17.4151993,573.199524" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1067" TintValue="1" EditorName="rsrc_supplies_crate_01_1067" Position="479.360992,-17.4153004,587.88208" Forward="0.991699994,0,-0.128800005" Right="-0.128800005,0,-0.991699994" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1069" TintValue="1" EditorName="rsrc_supplies_crate_01_1069" Position="543.663574,-17.4153004,447.477295" Forward="-0.999899983,0,-0.0124000004" Right="-0.0124000004,0,0.999899983" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1072" TintValue="1" EditorName="rsrc_supplies_crate_01_1072" Position="625.143311,1.61220002,701.71698" Forward="0.754299998,0,0.656499982" Right="0.656499982,0,-0.754299998" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1134" TintValue="1" EditorName="rsrc_supplies_crate_01_1134" Position="544.744629,-17.4153004,464.1922" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1133" TintValue="1" EditorName="rsrc_supplies_crate_01_1133" Position="550.522827,-17.4153004,454.065308" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1071" TintValue="1" EditorName="rsrc_supplies_crate_01_1071" Position="623.797607,-1.81789994,717.721375" Forward="0.251800001,0,0.967800021" Right="0.967800021,0,-0.251800001" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1135" TintValue="1" EditorName="rsrc_supplies_crate_01_1135" Position="487.093903,-18.4130993,580.138489" Forward="-0.997500002,0,0.0706999972" Right="0.0706999972,0,0.997500002" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1068" TintValue="1" EditorName="rsrc_supplies_crate_01_1068" Position="485.622986,-17.4153004,594.645691" Forward="-0.255499989,0,-0.966799974" Right="-0.966799974,0,0.255499989" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="1070" TintValue="1" EditorName="rsrc_supplies_crate_01_1070" Position="549.277222,-17.4153004,438.695801" Forward="-0.772800028,0,0.6347" Right="0.6347,0,0.772800028" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="2956" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2956" Position="349.570007,1.61039996,341.179199" Forward="-0.0310999993,0,0.999499977" Right="0.999499977,0,0.0310999993" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2944" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2944" Position="897.421875,1.61039996,461.15329" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2959" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2959" Position="668.937805,1.61039996,685.867676" Forward="0.0377000012,0,0.999300003" Right="0.999300003,0,-0.0377000012" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2966" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2966" Position="889.470276,2.4375999,823.374512" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2984" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2984" Position="905.42627,-0.289499998,207.776505" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2972" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2972" Position="120.780899,-3.32220006,823.470703" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2939" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2939" Position="72.9983978,1.61039996,535.393311" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2990" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2990" Position="534.564026,-17.4153004,521.037781" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2978" TintValue="1" EditorName="sys_creepDifficulty_easy_01_2978" Position="137.890503,-0.588,194.745895" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="false" Player="0" ID="2960" TintValue="1" EditorName="sys_creepReward_medium_01_2960" Position="659.631409,1.61039996,686.62439" Forward="0.0377000012,0,0.999300003" Right="0.999300003,0,-0.0377000012" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="2957" TintValue="1" EditorName="sys_creepReward_medium_01_2957" Position="359.614014,1.61039996,339.494598" Forward="-0.0310999993,0,0.999499977" Right="0.999499977,0,0.0310999993" Group="-1" VisualVariationIndex="0">sys_creepReward_medium_01</Object>
+		<Object IsSquad="false" Player="0" ID="2945" TintValue="1" EditorName="sys_creepReward_small_01_2945" Position="909.247925,1.61039996,474.480286" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="2967" TintValue="1" EditorName="sys_creepReward_small_01_2967" Position="900.794678,2.4375,823.508606" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="2985" TintValue="1" EditorName="sys_creepReward_small_01_2985" Position="892.346375,-0.291700006,207.052902" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="2979" TintValue="1" EditorName="sys_creepReward_small_01_2979" Position="126.191498,-0.456499994,194.362" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="2973" TintValue="1" EditorName="sys_creepReward_small_01_2973" Position="132.623703,-3.32220006,823.622681" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="2991" TintValue="1" EditorName="sys_creepReward_small_01_2991" Position="511.524292,-17.4162006,511.282806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="2940" TintValue="1" EditorName="sys_creepReward_small_01_2940" Position="88.7580032,1.61039996,553.892212" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="0" ID="2970" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2970" Position="842.38092,2.45009995,907.507202" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2952" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2952" Position="375.274506,1.61039996,346.889587" Forward="-0.0310999993,0,0.999499977" Right="0.999499977,0,0.0310999993" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2953" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2953" Position="306.129211,1.61039996,392.555908" Forward="-0.0310999993,0,0.999499977" Right="0.999499977,0,0.0310999993" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2963" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2963" Position="637.168274,1.61039996,675.387878" Forward="0.0377000012,0,0.999300003" Right="0.999300003,0,-0.0377000012" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2981" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2981" Position="183.139297,-0.239700004,123.449303" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2975" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2975" Position="181.366501,-3.32540011,868.893921" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2969" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2969" Position="946.47052,2.24180007,861.719116" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2980" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2980" Position="77.5287018,-0.199699998,116.971603" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2951" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2951" Position="336.049988,1.61039996,350.09671" Forward="-0.0310999993,0,0.999499977" Right="0.999499977,0,0.0310999993" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2968" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2968" Position="843.059814,2.35080004,859.962219" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2942" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2942" Position="54.3487015,1.61039996,534.620728" Forward="0.808499992,0,-0.588500023" Right="-0.588500023,0,-0.808499992" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2961" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2961" Position="715.804199,1.61039996,644.606873" Forward="0.0377000012,0,0.999300003" Right="0.999300003,0,-0.0377000012" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2946" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2946" Position="902.9375,1.61039996,446.712097" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2986" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2986" Position="914.272827,-0.288800001,199.960403" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2947" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2947" Position="926.219788,1.63049996,479.978485" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2941" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2941" Position="89.7043991,1.61039996,565.974182" Forward="0.808499992,0,-0.588500023" Right="-0.588500023,0,-0.808499992" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2987" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2987" Position="874.964478,-0.290399998,196.631805" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2982" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2982" Position="144.360199,-0.297899991,187.907898" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2962" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2962" Position="681.372498,1.61039996,676.087219" Forward="0.0377000012,0,0.999300003" Right="0.999300003,0,-0.0377000012" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2992" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2992" Position="526.554321,-17.4153004,512.109375" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2994" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2994" Position="510.737793,-17.4153004,501.007507" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2988" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2988" Position="914.197876,-0.288800001,190.546906" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2993" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2993" Position="486.735992,-17.4153004,512.179871" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2974" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2974" Position="72.6404037,-3.32509995,869.751709" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2976" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_2976" Position="144.499298,-3.32410002,834.52002" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2955" TintValue="1" EditorName="sys_foreRunnerMarker_superSentinel_01_2955" Position="316.673096,1.61039996,424.63681" Forward="-0.0310999993,0,0.999499977" Right="0.999499977,0,0.0310999993" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_superSentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="2964" TintValue="1" EditorName="sys_foreRunnerMarker_superSentinel_01_2964" Position="617.942322,1.61039996,603.655212" Forward="0.0377000012,0,0.999300003" Right="0.999300003,0,-0.0377000012" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_superSentinel_01</Object>
+		<Object IsSquad="false" Player="0" ID="5170" TintValue="1" EditorName="sys_marker_crate3A_01_5170" Position="771.85907,2.50559998,829.322388" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5175" TintValue="1" EditorName="sys_marker_crate3A_01_5175" Position="74.5177002,1.61039996,598.321777" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5172" TintValue="1" EditorName="sys_marker_crate3A_01_5172" Position="481.322693,-18.2872009,736.716675" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5173" TintValue="1" EditorName="sys_marker_crate3A_01_5173" Position="396.958405,1.59599996,708.343323" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5171" TintValue="1" EditorName="sys_marker_crate3A_01_5171" Position="509.781799,-6.95020008,919.985291" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5176" TintValue="1" EditorName="sys_marker_crate3A_01_5176" Position="98.1356964,1.26590002,347.430115" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5177" TintValue="1" EditorName="sys_marker_crate3A_01_5177" Position="484.471985,-18.4153004,330.865692" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5168" TintValue="1" EditorName="sys_marker_crate3A_01_5168" Position="834.726196,1.61039996,561.474487" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5169" TintValue="1" EditorName="sys_marker_crate3A_01_5169" Position="917.560974,1.62750006,651.502319" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5178" TintValue="1" EditorName="sys_marker_crate3A_01_5178" Position="540.746277,-17.7360992,669.954285" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5174" TintValue="1" EditorName="sys_marker_crate3A_01_5174" Position="253.161499,1.61039996,699.511414" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5166" TintValue="1" EditorName="sys_marker_crate3A_01_5166" Position="945.358582,1.6135,423.405914" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5162" TintValue="1" EditorName="sys_marker_crate3A_01_5162" Position="233.647797,0.896200001,187.037704" Forward="0.841499984,0,0.540300012" Right="0.540300012,0,-0.841499984" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5165" TintValue="1" EditorName="sys_marker_crate3A_01_5165" Position="776.235718,5.7803998,311.040314" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5164" TintValue="1" EditorName="sys_marker_crate3A_01_5164" Position="630.402222,1.46949995,319.512695" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5161" TintValue="1" EditorName="sys_marker_crate3A_01_5161" Position="398.637604,-1.01100004,305.839691" Forward="0.841499984,0,0.540300012" Right="0.540300012,0,-0.841499984" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5163" TintValue="1" EditorName="sys_marker_crate3A_01_5163" Position="513.856873,-12.9034996,86.6154022" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" ID="5192" TintValue="1" EditorName="sys_marker_crate3B_01_5192" Position="734.322388,1.61039996,459.992889" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5202" TintValue="1" EditorName="sys_marker_crate3B_01_5202" Position="950.221008,1.61399996,540.611206" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5194" TintValue="1" EditorName="sys_marker_crate3B_01_5194" Position="555.087891,-11.8782997,86.9057007" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5191" TintValue="1" EditorName="sys_marker_crate3B_01_5191" Position="593.072815,1.61039996,407.315887" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5193" TintValue="1" EditorName="sys_marker_crate3B_01_5193" Position="461.344299,-13.0746002,87.8554001" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5196" TintValue="1" EditorName="sys_marker_crate3B_01_5196" Position="182.852707,1.61039996,470.821594" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5201" TintValue="1" EditorName="sys_marker_crate3B_01_5201" Position="820.052795,1.83679998,666.545471" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5200" TintValue="1" EditorName="sys_marker_crate3B_01_5200" Position="551.841797,-18.4272995,735.865784" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5197" TintValue="1" EditorName="sys_marker_crate3B_01_5197" Position="416.504791,1.61039996,555.097778" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5199" TintValue="1" EditorName="sys_marker_crate3B_01_5199" Position="267.526611,1.61039996,693.876221" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5205" TintValue="1" EditorName="sys_marker_crate3B_01_5205" Position="226.915497,-4.97550011,954.489014" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5198" TintValue="1" EditorName="sys_marker_crate3B_01_5198" Position="167.754105,3.87700009,617.365479" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5195" TintValue="1" EditorName="sys_marker_crate3B_01_5195" Position="175.242401,1.67840004,275.47049" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5204" TintValue="1" EditorName="sys_marker_crate3B_01_5204" Position="806.082886,1.31019998,893.626709" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5190" TintValue="1" EditorName="sys_marker_crate3B_01_5190" Position="302.204712,2.22889996,298.080902" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5189" TintValue="1" EditorName="sys_marker_crate3B_01_5189" Position="541.240601,-17.7324009,329.09549" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5203" TintValue="1" EditorName="sys_marker_crate3B_01_5203" Position="864.350281,1.61039996,421.738403" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5206" TintValue="1" EditorName="sys_marker_crate3B_01_5206" Position="512.824524,-11.3969002,852.517883" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" ID="5213" TintValue="1" EditorName="sys_marker_crate3C_01_5213" Position="375.433594,1.61039996,606.446594" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5216" TintValue="1" EditorName="sys_marker_crate3C_01_5216" Position="62.2915001,1.59230006,433.220215" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5210" TintValue="1" EditorName="sys_marker_crate3C_01_5210" Position="778.380188,4.7249999,217.292297" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5212" TintValue="1" EditorName="sys_marker_crate3C_01_5212" Position="637.270325,1.61029994,430.333191" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5211" TintValue="1" EditorName="sys_marker_crate3C_01_5211" Position="511.927704,-18.9048004,232.902496" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5214" TintValue="1" EditorName="sys_marker_crate3C_01_5214" Position="895.226013,1.61039996,633.924011" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5209" TintValue="1" EditorName="sys_marker_crate3C_01_5209" Position="238.600601,-1.37720001,90.0156021" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5208" TintValue="1" EditorName="sys_marker_crate3C_01_5208" Position="600.517273,-10.3830004,763.900574" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5215" TintValue="1" EditorName="sys_marker_crate3C_01_5215" Position="122.161301,0.143000007,293.44989" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="5207" TintValue="1" EditorName="sys_marker_crate3C_01_5207" Position="269.252014,2.35750008,782.185181" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" ID="2933" TintValue="1" EditorName="sys_marker_flood_01_2933" Position="903.452393,1.61039996,552.396973" Forward="0.598500013,0,-0.801100016" Right="-0.801100016,0,-0.598500013" Group="9" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="0" ID="2932" TintValue="1" EditorName="sys_marker_flood_01_2932" Position="529.474182,-20.5487995,229.513794" Forward="0.598500013,0,-0.801100016" Right="-0.801100016,0,-0.598500013" Group="9" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="0" ID="2931" TintValue="1" EditorName="sys_marker_flood_01_2931" Position="113.925301,1.61039996,480.974304" Forward="0.598500013,0,-0.801100016" Right="-0.801100016,0,-0.598500013" Group="9" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="0" ID="2936" TintValue="1" EditorName="sys_marker_flood_01_2936" Position="485.180511,-17.4172001,409.7099" Forward="0,0,1" Right="1,0,0" Group="9" VisualVariationIndex="0">sys_marker_flood_01</Object>
+		<Object IsSquad="false" Player="1" ID="1186" TintValue="1" EditorName="sys_unitstart_01_1186" Position="392.000092,-12.8695002,223.237106" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+		<Object IsSquad="false" Player="1" ID="1187" TintValue="1" EditorName="sys_unitstart_01_1187" Position="635.20282,-10.8870001,229.264099" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+		<Object IsSquad="false" Player="1" ID="1188" TintValue="1" EditorName="sys_unitstart_01_1188" Position="391.34201,-6.33029985,788.461121" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+		<Object IsSquad="false" Player="1" ID="1189" TintValue="1" EditorName="sys_unitstart_01_1189" Position="626.75,-10.3832998,800.240173" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_unitstart_01</Object>
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="AI" Type="Scenario" NextTriggerVarID="33" NextTriggerID="14" NextConditionID="11" NextEffectID="17" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Trigger" Name="TriggerVar1" IsNull="false">1</TriggerVar>
+			<TriggerVar ID="1" Type="Unit" Name="" IsNull="false">2860</TriggerVar>
+			<TriggerVar ID="2" Type="Vector" Name="BoxExtent1Var1" IsNull="true" />
+			<TriggerVar ID="3" Type="Vector" Name="BoxExtent2Var1" IsNull="true" />
+			<TriggerVar ID="4" Type="Vector" Name="" IsNull="false">876.935181,2.43589997,779.841187</TriggerVar>
+			<TriggerVar ID="5" Type="Float" Name="" IsNull="false">150</TriggerVar>
+			<TriggerVar ID="6" Type="Unit" Name="" IsNull="false">2859</TriggerVar>
+			<TriggerVar ID="7" Type="Vector" Name="BoxExtent1Var2" IsNull="true" />
+			<TriggerVar ID="8" Type="Vector" Name="BoxExtent2Var2" IsNull="true" />
+			<TriggerVar ID="9" Type="Vector" Name="" IsNull="false">144.786194,-1.17209995,245.044205</TriggerVar>
+			<TriggerVar ID="10" Type="Float" Name="" IsNull="false">150</TriggerVar>
+			<TriggerVar ID="11" Type="Trigger" Name="TriggerVar2" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="12" Type="Unit" Name="" IsNull="false">2859</TriggerVar>
+			<TriggerVar ID="13" Type="Vector" Name="BoxExtent1Var3" IsNull="true" />
+			<TriggerVar ID="14" Type="Vector" Name="BoxExtent2Var3" IsNull="true" />
+			<TriggerVar ID="15" Type="Vector" Name="" IsNull="false">310.398285,-12.8746004,164.930099</TriggerVar>
+			<TriggerVar ID="16" Type="Float" Name="" IsNull="false">150</TriggerVar>
+			<TriggerVar ID="17" Type="Unit" Name="" IsNull="false">2860</TriggerVar>
+			<TriggerVar ID="18" Type="Vector" Name="BoxExtent1Var4" IsNull="true" />
+			<TriggerVar ID="19" Type="Vector" Name="BoxExtent2Var4" IsNull="true" />
+			<TriggerVar ID="20" Type="Vector" Name="" IsNull="false">728.311829,-8.96860027,870.554077</TriggerVar>
+			<TriggerVar ID="21" Type="Float" Name="" IsNull="false">150</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1" Y="219" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">0</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="1" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="31" Y="424" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="1" Type="AIAddTeleporterZone" DBID="1031" Version="1" CommentOut="false">
+						<Input Name="TeleporterUnit" SigID="1" Optional="false">1</Input>
+						<Input Name="BoxExtent1" SigID="2" Optional="true">2</Input>
+						<Input Name="BoxExtent2" SigID="3" Optional="true">3</Input>
+						<Input Name="SpherePos" SigID="4" Optional="true">4</Input>
+						<Input Name="SpereRad" SigID="5" Optional="true">5</Input>
+					</Effect>
+					<Effect ID="3" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">11</Input>
+					</Effect>
+					<Effect ID="5" Type="AIAddTeleporterZone" DBID="1031" Version="1" CommentOut="false">
+						<Input Name="TeleporterUnit" SigID="1" Optional="false">17</Input>
+						<Input Name="BoxExtent1" SigID="2" Optional="true">18</Input>
+						<Input Name="BoxExtent2" SigID="3" Optional="true">19</Input>
+						<Input Name="SpherePos" SigID="4" Optional="true">20</Input>
+						<Input Name="SpereRad" SigID="5" Optional="true">21</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="2" Name="newTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="408" Y="427" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="2" Type="AIAddTeleporterZone" DBID="1031" Version="1" CommentOut="false">
+						<Input Name="TeleporterUnit" SigID="1" Optional="false">6</Input>
+						<Input Name="BoxExtent1" SigID="2" Optional="true">7</Input>
+						<Input Name="BoxExtent2" SigID="3" Optional="true">8</Input>
+						<Input Name="SpherePos" SigID="4" Optional="true">9</Input>
+						<Input Name="SpereRad" SigID="5" Optional="true">10</Input>
+					</Effect>
+					<Effect ID="4" Type="AIAddTeleporterZone" DBID="1031" Version="1" CommentOut="false">
+						<Input Name="TeleporterUnit" SigID="1" Optional="false">12</Input>
+						<Input Name="BoxExtent1" SigID="2" Optional="true">13</Input>
+						<Input Name="BoxExtent2" SigID="3" Optional="true">14</Input>
+						<Input Name="SpherePos" SigID="4" Optional="true">15</Input>
+						<Input Name="SpereRad" SigID="5" Optional="true">16</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="AI" Type="Scenario" NextTriggerVarID="33" NextTriggerID="14" NextConditionID="11" NextEffectID="17" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="0" Type="Trigger" Name="TriggerVar1" IsNull="false">1</TriggerVar>
+					<TriggerVar ID="1" Type="Unit" Name="" IsNull="false">_hook_bldg_teleporter2way_01_2860_,_2860_</TriggerVar>
+					<TriggerVar ID="2" Type="Vector" Name="BoxExtent1Var1" IsNull="true" />
+					<TriggerVar ID="3" Type="Vector" Name="BoxExtent2Var1" IsNull="true" />
+					<TriggerVar ID="4" Type="Vector" Name="" IsNull="false">_Area5182_,_5182.Position_</TriggerVar>
+					<TriggerVar ID="5" Type="Float" Name="" IsNull="false">_Area5182_,_5182.Radius_</TriggerVar>
+					<TriggerVar ID="6" Type="Unit" Name="" IsNull="false">_hook_bldg_teleporter2way_01_2859_,_2859_</TriggerVar>
+					<TriggerVar ID="7" Type="Vector" Name="BoxExtent1Var2" IsNull="true" />
+					<TriggerVar ID="8" Type="Vector" Name="BoxExtent2Var2" IsNull="true" />
+					<TriggerVar ID="9" Type="Vector" Name="" IsNull="false">_Area5181_,_5181.Position_</TriggerVar>
+					<TriggerVar ID="10" Type="Float" Name="" IsNull="false">_Area5181_,_5181.Radius_</TriggerVar>
+					<TriggerVar ID="11" Type="Trigger" Name="TriggerVar2" IsNull="false">2</TriggerVar>
+					<TriggerVar ID="12" Type="Unit" Name="" IsNull="false">_hook_bldg_teleporter2way_01_2859_,_2859_</TriggerVar>
+					<TriggerVar ID="13" Type="Vector" Name="BoxExtent1Var3" IsNull="true" />
+					<TriggerVar ID="14" Type="Vector" Name="BoxExtent2Var3" IsNull="true" />
+					<TriggerVar ID="15" Type="Vector" Name="" IsNull="false">_Area5183_,_5183.Position_</TriggerVar>
+					<TriggerVar ID="16" Type="Float" Name="" IsNull="false">_Area5183_,_5183.Radius_</TriggerVar>
+					<TriggerVar ID="17" Type="Unit" Name="" IsNull="false">_hook_bldg_teleporter2way_01_2860_,_2860_</TriggerVar>
+					<TriggerVar ID="18" Type="Vector" Name="BoxExtent1Var4" IsNull="true" />
+					<TriggerVar ID="19" Type="Vector" Name="BoxExtent2Var4" IsNull="true" />
+					<TriggerVar ID="20" Type="Vector" Name="" IsNull="false">_Area5184_,_5184.Position_</TriggerVar>
+					<TriggerVar ID="21" Type="Float" Name="" IsNull="false">_Area5184_,_5184.Radius_</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1" Y="219" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="0" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">0</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="1" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="31" Y="424" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="1" Type="AIAddTeleporterZone" DBID="1031" Version="1" CommentOut="false">
+								<Input Name="TeleporterUnit" SigID="1" Optional="false">1</Input>
+								<Input Name="BoxExtent1" SigID="2" Optional="true">2</Input>
+								<Input Name="BoxExtent2" SigID="3" Optional="true">3</Input>
+								<Input Name="SpherePos" SigID="4" Optional="true">4</Input>
+								<Input Name="SpereRad" SigID="5" Optional="true">5</Input>
+							</Effect>
+							<Effect ID="3" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">11</Input>
+							</Effect>
+							<Effect ID="5" Type="AIAddTeleporterZone" DBID="1031" Version="1" CommentOut="false">
+								<Input Name="TeleporterUnit" SigID="1" Optional="false">17</Input>
+								<Input Name="BoxExtent1" SigID="2" Optional="true">18</Input>
+								<Input Name="BoxExtent2" SigID="3" Optional="true">19</Input>
+								<Input Name="SpherePos" SigID="4" Optional="true">20</Input>
+								<Input Name="SpereRad" SigID="5" Optional="true">21</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="2" Name="newTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="408" Y="427" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="2" Type="AIAddTeleporterZone" DBID="1031" Version="1" CommentOut="false">
+								<Input Name="TeleporterUnit" SigID="1" Optional="false">6</Input>
+								<Input Name="BoxExtent1" SigID="2" Optional="true">7</Input>
+								<Input Name="BoxExtent2" SigID="3" Optional="true">8</Input>
+								<Input Name="SpherePos" SigID="4" Optional="true">9</Input>
+								<Input Name="SpereRad" SigID="5" Optional="true">10</Input>
+							</Effect>
+							<Effect ID="4" Type="AIAddTeleporterZone" DBID="1031" Version="1" CommentOut="false">
+								<Input Name="TeleporterUnit" SigID="1" Optional="false">12</Input>
+								<Input Name="BoxExtent1" SigID="2" Optional="true">13</Input>
+								<Input Name="BoxExtent2" SigID="3" Optional="true">14</Input>
+								<Input Name="SpherePos" SigID="4" Optional="true">15</Input>
+								<Input Name="SpereRad" SigID="5" Optional="true">16</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<TriggerSystem Name="Labyrinth" Type="Scenario" NextTriggerVarID="946" NextTriggerID="188" NextConditionID="167" NextEffectID="230" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="40" Type="Trigger" Name="TriggerVar1" IsNull="false">42</TriggerVar>
+			<TriggerVar ID="41" Type="Diplomacy" Name="" IsNull="false">Enemy</TriggerVar>
+			<TriggerVar ID="42" Type="Player" Name="" IsNull="false">5</TriggerVar>
+			<TriggerVar ID="43" Type="Team" Name="CompareTeamVar1" IsNull="true" />
+			<TriggerVar ID="44" Type="Bool" Name="InvertFilterVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="45" Type="EntityFilterSet" Name="EntityFilterSetVar1" IsNull="false" />
+			<TriggerVar ID="784" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="785" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="786" Type="Vector" Name="" IsNull="false">446.08609,1.61039996,441.159088</TriggerVar>
+			<TriggerVar ID="787" Type="Vector" Name="" IsNull="false">0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="788" Type="Bool" Name="NoPhysicsVar2" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="789" Type="Object" Name="ObjectVar1" IsNull="true" />
+			<TriggerVar ID="790" Type="ObjectList" Name="SentinelsRight" IsNull="false" />
+			<TriggerVar ID="791" Type="Bool" Name="ClearExistingVar2" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="792" Type="Trigger" Name="TriggerVar8" IsNull="false">127</TriggerVar>
+			<TriggerVar ID="793" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="794" Type="Time" Name="" IsNull="false">4500</TriggerVar>
+			<TriggerVar ID="800" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="801" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="802" Type="Vector" Name="" IsNull="false">446.569,1.61039996,630.648682</TriggerVar>
+			<TriggerVar ID="803" Type="Vector" Name="" IsNull="false">0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="804" Type="Bool" Name="NoPhysicsVar3" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="805" Type="Object" Name="" IsNull="true" />
+			<TriggerVar ID="806" Type="ObjectList" Name="Sentinels" IsNull="false" />
+			<TriggerVar ID="807" Type="Bool" Name="ClearExistingVar3" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="808" Type="Trigger" Name="TriggerVar9" IsNull="false">138</TriggerVar>
+			<TriggerVar ID="809" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="810" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="811" Type="Vector" Name="" IsNull="false">578.08313,1.61039996,395.671509</TriggerVar>
+			<TriggerVar ID="812" Type="Vector" Name="" IsNull="false">-0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="813" Type="Bool" Name="NoPhysicsVar4" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="814" Type="Object" Name="ObjectVar4" IsNull="true" />
+			<TriggerVar ID="815" Type="Bool" Name="ClearExistingVar4" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="816" Type="Trigger" Name="TriggerVar10" IsNull="false">127</TriggerVar>
+			<TriggerVar ID="817" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="818" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="819" Type="Vector" Name="" IsNull="false">577.196411,1.65960002,489.817993</TriggerVar>
+			<TriggerVar ID="820" Type="Vector" Name="" IsNull="false">-0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="821" Type="Bool" Name="NoPhysicsVar5" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="822" Type="Object" Name="ObjectVar5" IsNull="true" />
+			<TriggerVar ID="823" Type="Bool" Name="ClearExistingVar5" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="824" Type="Trigger" Name="TriggerVar11" IsNull="false">127</TriggerVar>
+			<TriggerVar ID="825" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="826" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="827" Type="Vector" Name="" IsNull="false">576.866272,1.61039996,536.442627</TriggerVar>
+			<TriggerVar ID="828" Type="Vector" Name="" IsNull="false">-0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="829" Type="Bool" Name="NoPhysicsVar7" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="830" Type="Object" Name="ObjectVar6" IsNull="true" />
+			<TriggerVar ID="831" Type="Bool" Name="ClearExistingVar7" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="832" Type="Trigger" Name="TriggerVar12" IsNull="false">127</TriggerVar>
+			<TriggerVar ID="833" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="834" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="835" Type="Vector" Name="" IsNull="false">577.262085,1.61039996,630.328979</TriggerVar>
+			<TriggerVar ID="836" Type="Vector" Name="" IsNull="false">-0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="837" Type="Bool" Name="NoPhysicsVar8" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="838" Type="Object" Name="ObjectVar7" IsNull="true" />
+			<TriggerVar ID="839" Type="Bool" Name="ClearExistingVar8" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="840" Type="Trigger" Name="TriggerVar13" IsNull="false">127</TriggerVar>
+			<TriggerVar ID="841" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="842" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="843" Type="Vector" Name="" IsNull="false">447.061707,1.61039996,583.968872</TriggerVar>
+			<TriggerVar ID="844" Type="Vector" Name="" IsNull="false">0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="845" Type="Bool" Name="NoPhysicsVar9" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="846" Type="Object" Name="ObjectVar8" IsNull="true" />
+			<TriggerVar ID="847" Type="Bool" Name="ClearExistingVar9" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="848" Type="Trigger" Name="TriggerVar14" IsNull="false">138</TriggerVar>
+			<TriggerVar ID="849" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="850" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="851" Type="Vector" Name="" IsNull="false">445.544495,1.61039996,489.554596</TriggerVar>
+			<TriggerVar ID="852" Type="Vector" Name="" IsNull="false">0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="853" Type="Bool" Name="NoPhysicsVar10" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="854" Type="Object" Name="ObjectVar9" IsNull="true" />
+			<TriggerVar ID="855" Type="Bool" Name="ClearExistingVar10" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="856" Type="Trigger" Name="TriggerVar15" IsNull="false">138</TriggerVar>
+			<TriggerVar ID="857" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="858" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="859" Type="Vector" Name="" IsNull="false">578.546082,1.61039996,442.406403</TriggerVar>
+			<TriggerVar ID="860" Type="Vector" Name="" IsNull="false">-0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="861" Type="Bool" Name="NoPhysicsVar11" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="862" Type="Object" Name="" IsNull="true" />
+			<TriggerVar ID="863" Type="Bool" Name="ClearExistingVar11" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="864" Type="Trigger" Name="TriggerVar16" IsNull="false">138</TriggerVar>
+			<TriggerVar ID="865" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+			<TriggerVar ID="866" Type="Player" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="867" Type="Vector" Name="" IsNull="false">445.118286,1.61039996,395.359711</TriggerVar>
+			<TriggerVar ID="868" Type="Vector" Name="" IsNull="false">0.999599993,0,-0.0292000007</TriggerVar>
+			<TriggerVar ID="869" Type="Bool" Name="NoPhysicsVar13" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="870" Type="Object" Name="ObjectVar10" IsNull="true" />
+			<TriggerVar ID="871" Type="Bool" Name="ClearExistingVar13" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="872" Type="Trigger" Name="TriggerVar17" IsNull="false">138</TriggerVar>
+			<TriggerVar ID="873" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="874" Type="Time" Name="" IsNull="false">6000</TriggerVar>
+			<TriggerVar ID="876" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="877" Type="Time" Name="" IsNull="false">4500</TriggerVar>
+			<TriggerVar ID="883" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="884" Type="Time" Name="" IsNull="false">1000</TriggerVar>
+			<TriggerVar ID="885" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="886" Type="Time" Name="" IsNull="false">1000</TriggerVar>
+			<TriggerVar ID="887" Type="Trigger" Name="TriggerVar19" IsNull="false">137</TriggerVar>
+			<TriggerVar ID="888" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="889" Type="Time" Name="" IsNull="false">6000</TriggerVar>
+			<TriggerVar ID="891" Type="Trigger" Name="TriggerVar18" IsNull="false">143</TriggerVar>
+			<TriggerVar ID="892" Type="Trigger" Name="TriggerVar20" IsNull="false">137</TriggerVar>
+			<TriggerVar ID="894" Type="Unit" Name="DestroyUnitVar1" IsNull="true" />
+			<TriggerVar ID="895" Type="UnitList" Name="DestroyUnitListVar1" IsNull="true" />
+			<TriggerVar ID="896" Type="Squad" Name="DestroySquadVar1" IsNull="true" />
+			<TriggerVar ID="897" Type="SquadList" Name="DestroySquadListVar1" IsNull="true" />
+			<TriggerVar ID="898" Type="Object" Name="ObjectVar3" IsNull="true" />
+			<TriggerVar ID="900" Type="Unit" Name="DestroyUnitVar2" IsNull="true" />
+			<TriggerVar ID="901" Type="UnitList" Name="DestroyUnitListVar2" IsNull="true" />
+			<TriggerVar ID="902" Type="Squad" Name="DestroySquadVar2" IsNull="true" />
+			<TriggerVar ID="903" Type="SquadList" Name="DestroySquadListVar2" IsNull="true" />
+			<TriggerVar ID="904" Type="Object" Name="ObjectVar12" IsNull="true" />
+			<TriggerVar ID="947" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="948" Type="Integer" Name="" IsNull="false">4</TriggerVar>
+			<TriggerVar ID="949" Type="Integer" Name="RandomVar1" IsNull="false" />
+			<TriggerVar ID="950" Type="Trigger" Name="TriggerVar2" IsNull="false">190</TriggerVar>
+			<TriggerVar ID="951" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="952" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="953" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="954" Type="Integer" Name="" IsNull="false">1</TriggerVar>
+			<TriggerVar ID="955" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="956" Type="Integer" Name="" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="957" Type="Trigger" Name="TriggerVar3" IsNull="false">191</TriggerVar>
+			<TriggerVar ID="958" Type="Trigger" Name="TriggerVar4" IsNull="false">192</TriggerVar>
+			<TriggerVar ID="959" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="960" Type="Integer" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="961" Type="Trigger" Name="TriggerVar5" IsNull="false">193</TriggerVar>
+			<TriggerVar ID="962" Type="Trigger" Name="TriggerVar6" IsNull="false">194</TriggerVar>
+			<TriggerVar ID="963" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="964" Type="Integer" Name="" IsNull="false">4</TriggerVar>
+			<TriggerVar ID="965" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="966" Type="Integer" Name="" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="967" Type="Integer" Name="RandomVar2" IsNull="false" />
+			<TriggerVar ID="968" Type="Trigger" Name="TriggerVar7" IsNull="false">196</TriggerVar>
+			<TriggerVar ID="969" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="970" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="971" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="972" Type="Integer" Name="" IsNull="false">1</TriggerVar>
+			<TriggerVar ID="973" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="974" Type="Integer" Name="" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="975" Type="Trigger" Name="TriggerVar21" IsNull="false">197</TriggerVar>
+			<TriggerVar ID="976" Type="Trigger" Name="TriggerVar22" IsNull="false">198</TriggerVar>
+			<TriggerVar ID="977" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="978" Type="Integer" Name="" IsNull="false">4</TriggerVar>
+			<TriggerVar ID="979" Type="Integer" Name="RandomVar3" IsNull="false" />
+			<TriggerVar ID="980" Type="Trigger" Name="TriggerVar23" IsNull="false">200</TriggerVar>
+			<TriggerVar ID="981" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="982" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="983" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="984" Type="Integer" Name="" IsNull="false">1</TriggerVar>
+			<TriggerVar ID="985" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="986" Type="Integer" Name="" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="987" Type="Trigger" Name="TriggerVar24" IsNull="false">201</TriggerVar>
+			<TriggerVar ID="988" Type="Trigger" Name="TriggerVar25" IsNull="false">202</TriggerVar>
+			<TriggerVar ID="989" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="990" Type="Integer" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="991" Type="Trigger" Name="TriggerVar26" IsNull="false">203</TriggerVar>
+			<TriggerVar ID="992" Type="Trigger" Name="TriggerVar27" IsNull="false">204</TriggerVar>
+			<TriggerVar ID="993" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="994" Type="Integer" Name="" IsNull="false">4</TriggerVar>
+			<TriggerVar ID="995" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="996" Type="Integer" Name="" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="997" Type="Integer" Name="RandomVar4" IsNull="false" />
+			<TriggerVar ID="998" Type="Trigger" Name="TriggerVar28" IsNull="false">206</TriggerVar>
+			<TriggerVar ID="999" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="1000" Type="Integer" Name="" IsNull="false">0</TriggerVar>
+			<TriggerVar ID="1001" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="1002" Type="Integer" Name="" IsNull="false">1</TriggerVar>
+			<TriggerVar ID="1003" Type="Operator" Name="" IsNull="false">EqualTo</TriggerVar>
+			<TriggerVar ID="1004" Type="Integer" Name="" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="1005" Type="Trigger" Name="TriggerVar29" IsNull="false">207</TriggerVar>
+			<TriggerVar ID="1006" Type="Trigger" Name="TriggerVar30" IsNull="false">208</TriggerVar>
+			<TriggerVar ID="1007" Type="Trigger" Name="TriggerVar31" IsNull="false">189</TriggerVar>
+			<TriggerVar ID="1008" Type="Trigger" Name="TriggerVar32" IsNull="false">189</TriggerVar>
+			<TriggerVar ID="1009" Type="Trigger" Name="TriggerVar33" IsNull="false">130</TriggerVar>
+			<TriggerVar ID="1010" Type="Trigger" Name="TriggerVar34" IsNull="false">129</TriggerVar>
+			<TriggerVar ID="1011" Type="Trigger" Name="TriggerVar35" IsNull="false">131</TriggerVar>
+			<TriggerVar ID="1012" Type="Trigger" Name="TriggerVar36" IsNull="false">132</TriggerVar>
+			<TriggerVar ID="1013" Type="Trigger" Name="TriggerVar37" IsNull="false">126</TriggerVar>
+			<TriggerVar ID="1014" Type="Trigger" Name="TriggerVar38" IsNull="false">195</TriggerVar>
+			<TriggerVar ID="1015" Type="Trigger" Name="TriggerVar39" IsNull="false">139</TriggerVar>
+			<TriggerVar ID="1016" Type="Trigger" Name="TriggerVar40" IsNull="false">139</TriggerVar>
+			<TriggerVar ID="1017" Type="Trigger" Name="TriggerVar41" IsNull="false">199</TriggerVar>
+			<TriggerVar ID="1018" Type="Trigger" Name="TriggerVar42" IsNull="false">199</TriggerVar>
+			<TriggerVar ID="1019" Type="Trigger" Name="TriggerVar43" IsNull="false">133</TriggerVar>
+			<TriggerVar ID="1020" Type="Trigger" Name="TriggerVar44" IsNull="false">134</TriggerVar>
+			<TriggerVar ID="1021" Type="Trigger" Name="TriggerVar45" IsNull="false">135</TriggerVar>
+			<TriggerVar ID="1022" Type="Trigger" Name="TriggerVar46" IsNull="false">136</TriggerVar>
+			<TriggerVar ID="1023" Type="Trigger" Name="TriggerVar47" IsNull="false">128</TriggerVar>
+			<TriggerVar ID="1024" Type="Trigger" Name="TriggerVar48" IsNull="false">205</TriggerVar>
+			<TriggerVar ID="1025" Type="Trigger" Name="TriggerVar49" IsNull="false">140</TriggerVar>
+			<TriggerVar ID="1026" Type="Trigger" Name="TriggerVar50" IsNull="false">140</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="41" Name="Script Start" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="50" Y="111" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="40" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">40</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="42" Name="Find Enemies" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="593" Y="107" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="41" Type="FilterAddDiplomacy" DBID="379" Version="1" CommentOut="false">
+						<Input Name="Diplomacy" SigID="2" Optional="false">41</Input>
+						<Input Name="ComparePlayer" SigID="3" Optional="true">42</Input>
+						<Input Name="CompareTeam" SigID="4" Optional="true">43</Input>
+						<Input Name="InvertFilter" SigID="5" Optional="true">44</Input>
+						<Output Name="EntityFilterSet" SigID="1" Optional="false">45</Output>
+					</Effect>
+					<Effect ID="138" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">887</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="126" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3051" Y="669" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="121" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">784</Input>
+						<Input Name="Player" SigID="3" Optional="false">785</Input>
+						<Input Name="Location" SigID="2" Optional="false">786</Input>
+						<Input Name="Facing" SigID="10" Optional="true">787</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">788</Input>
+						<Output Name="Object" SigID="4" Optional="true">789</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">791</Output>
+					</Effect>
+					<Effect ID="173" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">792</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="127" Name="newTrigger101" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3973" Y="529" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="92" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">793</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">794</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="189" Type="Destroy" DBID="38" Version="4" CommentOut="false">
+						<Input Name="DestroyUnit" SigID="3" Optional="true">900</Input>
+						<Input Name="DestroyUnitList" SigID="4" Optional="true">901</Input>
+						<Input Name="DestroySquad" SigID="5" Optional="true">902</Input>
+						<Input Name="DestroySquadList" SigID="6" Optional="true">903</Input>
+						<Input Name="Object" SigID="7" Optional="true">904</Input>
+						<Input Name="ObjectList" SigID="8" Optional="true">790</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="128" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2633" Y="1348" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="116" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">800</Input>
+						<Input Name="Player" SigID="3" Optional="false">801</Input>
+						<Input Name="Location" SigID="2" Optional="false">802</Input>
+						<Input Name="Facing" SigID="10" Optional="true">803</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">804</Input>
+						<Output Name="Object" SigID="4" Optional="true">805</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">807</Output>
+					</Effect>
+					<Effect ID="184" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">808</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="129" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3001" Y="441" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="117" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">809</Input>
+						<Input Name="Player" SigID="3" Optional="false">810</Input>
+						<Input Name="Location" SigID="2" Optional="false">811</Input>
+						<Input Name="Facing" SigID="10" Optional="true">812</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">813</Input>
+						<Output Name="Object" SigID="4" Optional="true">814</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">815</Output>
+					</Effect>
+					<Effect ID="175" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">816</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="130" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3421" Y="245" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="120" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">817</Input>
+						<Input Name="Player" SigID="3" Optional="false">818</Input>
+						<Input Name="Location" SigID="2" Optional="false">819</Input>
+						<Input Name="Facing" SigID="10" Optional="true">820</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">821</Input>
+						<Output Name="Object" SigID="4" Optional="true">822</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">823</Output>
+					</Effect>
+					<Effect ID="174" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">824</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="131" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3420" Y="534" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="121" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">825</Input>
+						<Input Name="Player" SigID="3" Optional="false">826</Input>
+						<Input Name="Location" SigID="2" Optional="false">827</Input>
+						<Input Name="Facing" SigID="10" Optional="true">828</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">829</Input>
+						<Output Name="Object" SigID="4" Optional="true">830</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">831</Output>
+					</Effect>
+					<Effect ID="176" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">832</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="132" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3438" Y="743" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="122" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">833</Input>
+						<Input Name="Player" SigID="3" Optional="false">834</Input>
+						<Input Name="Location" SigID="2" Optional="false">835</Input>
+						<Input Name="Facing" SigID="10" Optional="true">836</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">837</Input>
+						<Output Name="Object" SigID="4" Optional="true">838</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">839</Output>
+					</Effect>
+					<Effect ID="177" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">840</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="133" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3097" Y="894" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="117" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">841</Input>
+						<Input Name="Player" SigID="3" Optional="false">842</Input>
+						<Input Name="Location" SigID="2" Optional="false">843</Input>
+						<Input Name="Facing" SigID="10" Optional="true">844</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">845</Input>
+						<Output Name="Object" SigID="4" Optional="true">846</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">847</Output>
+					</Effect>
+					<Effect ID="183" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">848</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="134" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3100" Y="1092" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="120" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">849</Input>
+						<Input Name="Player" SigID="3" Optional="false">850</Input>
+						<Input Name="Location" SigID="2" Optional="false">851</Input>
+						<Input Name="Facing" SigID="10" Optional="true">852</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">853</Input>
+						<Output Name="Object" SigID="4" Optional="true">854</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">855</Output>
+					</Effect>
+					<Effect ID="182" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">856</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="135" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3095" Y="1300" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="116" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">857</Input>
+						<Input Name="Player" SigID="3" Optional="false">858</Input>
+						<Input Name="Location" SigID="2" Optional="false">859</Input>
+						<Input Name="Facing" SigID="10" Optional="true">860</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">861</Input>
+						<Output Name="Object" SigID="4" Optional="true">862</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">863</Output>
+					</Effect>
+					<Effect ID="181" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">864</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="136" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3077" Y="1498" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="122" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+						<Input Name="ProtoObject" SigID="1" Optional="false">865</Input>
+						<Input Name="Player" SigID="3" Optional="false">866</Input>
+						<Input Name="Location" SigID="2" Optional="false">867</Input>
+						<Input Name="Facing" SigID="10" Optional="true">868</Input>
+						<Input Name="NoPhysics" SigID="11" Optional="true">869</Input>
+						<Output Name="Object" SigID="4" Optional="true">870</Output>
+						<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+						<Output Name="ClearExisting" SigID="9" Optional="true">871</Output>
+					</Effect>
+					<Effect ID="180" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">872</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="137" Name="newTrigger157" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1678" Y="190" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="122" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">873</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">874</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="185" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">891</Input>
+					</Effect>
+					<Effect ID="251" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1007</Input>
+					</Effect>
+					<Effect ID="258" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1014</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="138" Name="newTrigger101" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3811" Y="1127" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="92" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">876</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">877</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="188" Type="Destroy" DBID="38" Version="4" CommentOut="false">
+						<Input Name="DestroyUnit" SigID="3" Optional="true">894</Input>
+						<Input Name="DestroyUnitList" SigID="4" Optional="true">895</Input>
+						<Input Name="DestroySquad" SigID="5" Optional="true">896</Input>
+						<Input Name="DestroySquadList" SigID="6" Optional="true">897</Input>
+						<Input Name="Object" SigID="7" Optional="true">898</Input>
+						<Input Name="ObjectList" SigID="8" Optional="true">806</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="139" Name="wait to spawn 2nd one from this side" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2553" Y="515" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="125" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">883</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">884</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="252" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1008</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="140" Name="wait to spawn a second one" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2321" Y="952" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="125" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">885</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">886</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="261" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1017</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="143" Name="newTrigger157" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2321" Y="702" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="122" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">888</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">889</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="186" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">892</Input>
+					</Effect>
+					<Effect ID="262" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1018</Input>
+					</Effect>
+					<Effect ID="268" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1024</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="189" Name="newTrigger0" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="58" Y="162" GroupID="-1" TemplateID="141">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="231" Type="RandomInt" DBID="178" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="true">947</Input>
+						<Input Name="Max" SigID="2" Optional="true">948</Input>
+						<Output Name="Random" SigID="3" Optional="false">949</Output>
+					</Effect>
+					<Effect ID="232" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">950</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="190" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="428" Y="106" GroupID="-1" TemplateID="141">
+				<TriggerConditions>
+					<And>
+						<Condition ID="168" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">949</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">951</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">952</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="253" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1009</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="233" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">957</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="191" Name="newTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="781" Y="106" GroupID="-1" TemplateID="141">
+				<TriggerConditions>
+					<And>
+						<Condition ID="169" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">949</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">953</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">954</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="254" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1010</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="234" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">958</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="192" Name="newTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1132" Y="105" GroupID="-1" TemplateID="141">
+				<TriggerConditions>
+					<And>
+						<Condition ID="170" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">949</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">955</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">956</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="255" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1011</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="235" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">961</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="193" Name="newTrigger8" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1481" Y="103" GroupID="-1" TemplateID="141">
+				<TriggerConditions>
+					<And>
+						<Condition ID="171" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">949</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">959</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">960</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="256" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1012</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="236" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">962</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="194" Name="newTrigger9" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1827" Y="101" GroupID="-1" TemplateID="141">
+				<TriggerConditions>
+					<And>
+						<Condition ID="172" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">949</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">963</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">964</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="257" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1013</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="195" Name="newTrigger0" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2" Y="179" GroupID="-1" TemplateID="142">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="237" Type="RandomCount" DBID="178" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="true">965</Input>
+						<Input Name="Max" SigID="2" Optional="true">966</Input>
+						<Output Name="Random" SigID="3" Optional="false">967</Output>
+					</Effect>
+					<Effect ID="238" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">968</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="196" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="372" Y="123" GroupID="-1" TemplateID="142">
+				<TriggerConditions>
+					<And>
+						<Condition ID="173" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">967</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">969</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">970</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="259" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1015</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="239" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">975</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="197" Name="newTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="725" Y="123" GroupID="-1" TemplateID="142">
+				<TriggerConditions>
+					<And>
+						<Condition ID="174" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">967</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">971</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">972</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="260" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1016</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="240" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">976</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="198" Name="newTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1076" Y="122" GroupID="-1" TemplateID="142">
+				<TriggerConditions>
+					<And>
+						<Condition ID="175" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">967</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">973</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">974</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue />
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="199" Name="newTrigger0" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="58" Y="162" GroupID="-1" TemplateID="145">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="241" Type="RandomInt" DBID="178" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="true">977</Input>
+						<Input Name="Max" SigID="2" Optional="true">978</Input>
+						<Output Name="Random" SigID="3" Optional="false">979</Output>
+					</Effect>
+					<Effect ID="242" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">980</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="200" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="428" Y="106" GroupID="-1" TemplateID="145">
+				<TriggerConditions>
+					<And>
+						<Condition ID="176" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">979</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">981</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">982</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="263" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1019</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="243" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">987</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="201" Name="newTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="781" Y="106" GroupID="-1" TemplateID="145">
+				<TriggerConditions>
+					<And>
+						<Condition ID="177" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">979</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">983</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">984</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="264" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1020</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="244" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">988</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="202" Name="newTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1132" Y="105" GroupID="-1" TemplateID="145">
+				<TriggerConditions>
+					<And>
+						<Condition ID="178" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">979</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">985</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">986</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="265" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1021</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="245" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">991</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="203" Name="newTrigger8" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1481" Y="103" GroupID="-1" TemplateID="145">
+				<TriggerConditions>
+					<And>
+						<Condition ID="179" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">979</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">989</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">990</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="266" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1022</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="246" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">992</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="204" Name="newTrigger9" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1827" Y="101" GroupID="-1" TemplateID="145">
+				<TriggerConditions>
+					<And>
+						<Condition ID="180" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">979</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">993</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">994</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="267" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1023</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="205" Name="newTrigger0" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2" Y="179" GroupID="-1" TemplateID="146">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="247" Type="RandomCount" DBID="178" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="true">995</Input>
+						<Input Name="Max" SigID="2" Optional="true">996</Input>
+						<Output Name="Random" SigID="3" Optional="false">997</Output>
+					</Effect>
+					<Effect ID="248" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">998</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="206" Name="newTrigger1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="372" Y="123" GroupID="-1" TemplateID="146">
+				<TriggerConditions>
+					<And>
+						<Condition ID="181" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">997</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">999</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">1000</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="269" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1025</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="249" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1005</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="207" Name="newTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="725" Y="123" GroupID="-1" TemplateID="146">
+				<TriggerConditions>
+					<And>
+						<Condition ID="182" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">997</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">1001</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">1002</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="270" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1026</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse>
+					<Effect ID="250" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">1006</Input>
+					</Effect>
+				</TriggerEffectsOnFalse>
+			</Trigger>
+			<Trigger ID="208" Name="newTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1076" Y="122" GroupID="-1" TemplateID="146">
+				<TriggerConditions>
+					<And>
+						<Condition ID="183" Type="CompareCount" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="FirstCount" SigID="1" Optional="false">997</Input>
+							<Input Name="CompareType" SigID="2" Optional="false">1003</Input>
+							<Input Name="SecondCount" SigID="3" Optional="false">1004</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue />
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings>
+				<TriggerTemplateMapping ID="141" Name="\random5.xml" Image="" X="2671" Y="157" SizeX="100" SizeY="143" GroupID="-1" CommentOut="false" Obsolete="false" DoNotUse="false">
+					<TriggerInput Name="go" BindID="0,Activate">137,Effect.True;139,Effect.True;</TriggerInput>
+					<TriggerOutput Name="1" BindID="1,Effect.True">130,Activate;</TriggerOutput>
+					<TriggerOutput Name="2" BindID="2,Effect.True">129,Activate;</TriggerOutput>
+					<TriggerOutput Name="3" BindID="3,Effect.True">131,Activate;</TriggerOutput>
+					<TriggerOutput Name="4" BindID="8,Effect.True">132,Activate;</TriggerOutput>
+					<TriggerOutput Name="5" BindID="9,Effect.True">126,Activate;</TriggerOutput>
+				</TriggerTemplateMapping>
+				<TriggerTemplateMapping ID="142" Name="\random3.xml" Image="" X="2529" Y="384" SizeX="100" SizeY="100" GroupID="-1" CommentOut="false" Obsolete="false" DoNotUse="false">
+					<TriggerInput Name="go" BindID="0,Activate">137,Effect.True;</TriggerInput>
+					<TriggerOutput Name="1" BindID="1,Effect.True">139,Activate;</TriggerOutput>
+					<TriggerOutput Name="2" BindID="2,Effect.True">139,Activate;</TriggerOutput>
+					<TriggerOutput Name="3" BindID="3,Effect.True" />
+				</TriggerTemplateMapping>
+				<TriggerTemplateMapping ID="145" Name="\random5.xml" Image="" X="2771" Y="780" SizeX="100" SizeY="143" GroupID="-1" CommentOut="false" Obsolete="false" DoNotUse="false">
+					<TriggerInput Name="go" BindID="0,Activate">140,Effect.True;143,Effect.True;</TriggerInput>
+					<TriggerOutput Name="1" BindID="1,Effect.True">133,Activate;</TriggerOutput>
+					<TriggerOutput Name="2" BindID="2,Effect.True">134,Activate;</TriggerOutput>
+					<TriggerOutput Name="3" BindID="3,Effect.True">135,Activate;</TriggerOutput>
+					<TriggerOutput Name="4" BindID="8,Effect.True">136,Activate;</TriggerOutput>
+					<TriggerOutput Name="5" BindID="9,Effect.True">128,Activate;</TriggerOutput>
+				</TriggerTemplateMapping>
+				<TriggerTemplateMapping ID="146" Name="\random3.xml" Image="" X="2392" Y="858" SizeX="100" SizeY="100" GroupID="-1" CommentOut="false" Obsolete="false" DoNotUse="false">
+					<TriggerInput Name="go" BindID="0,Activate">143,Effect.True;</TriggerInput>
+					<TriggerOutput Name="1" BindID="1,Effect.True">140,Activate;</TriggerOutput>
+					<TriggerOutput Name="2" BindID="2,Effect.True">140,Activate;</TriggerOutput>
+					<TriggerOutput Name="3" BindID="3,Effect.True" />
+				</TriggerTemplateMapping>
+			</TriggerMappings>
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Labyrinth" Type="Scenario" NextTriggerVarID="946" NextTriggerID="188" NextConditionID="167" NextEffectID="230" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="40" Type="Trigger" Name="TriggerVar1" IsNull="false">42</TriggerVar>
+					<TriggerVar ID="41" Type="Diplomacy" Name="" IsNull="false">Enemy</TriggerVar>
+					<TriggerVar ID="42" Type="Player" Name="" IsNull="false">5</TriggerVar>
+					<TriggerVar ID="43" Type="Team" Name="CompareTeamVar1" IsNull="true" />
+					<TriggerVar ID="44" Type="Bool" Name="InvertFilterVar1" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="45" Type="EntityFilterSet" Name="EntityFilterSetVar1" IsNull="false" />
+					<TriggerVar ID="784" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="785" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="786" Type="Vector" Name="" IsNull="false">_Left4_,_2874.Position_</TriggerVar>
+					<TriggerVar ID="787" Type="Vector" Name="" IsNull="false">_Left4_,_2874.Direction_</TriggerVar>
+					<TriggerVar ID="788" Type="Bool" Name="NoPhysicsVar2" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="789" Type="Object" Name="ObjectVar1" IsNull="true" />
+					<TriggerVar ID="790" Type="ObjectList" Name="SentinelsRight" IsNull="false" />
+					<TriggerVar ID="791" Type="Bool" Name="ClearExistingVar2" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="792" Type="Trigger" Name="TriggerVar8" IsNull="false">127</TriggerVar>
+					<TriggerVar ID="793" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+					<TriggerVar ID="794" Type="Time" Name="" IsNull="false">4500</TriggerVar>
+					<TriggerVar ID="800" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="801" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="802" Type="Vector" Name="" IsNull="false">_Left1_,_2871.Position_</TriggerVar>
+					<TriggerVar ID="803" Type="Vector" Name="" IsNull="false">_Left1_,_2871.Direction_</TriggerVar>
+					<TriggerVar ID="804" Type="Bool" Name="NoPhysicsVar3" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="805" Type="Object" Name="" IsNull="true" />
+					<TriggerVar ID="806" Type="ObjectList" Name="Sentinels" IsNull="false" />
+					<TriggerVar ID="807" Type="Bool" Name="ClearExistingVar3" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="808" Type="Trigger" Name="TriggerVar9" IsNull="false">138</TriggerVar>
+					<TriggerVar ID="809" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="810" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="811" Type="Vector" Name="" IsNull="false">_Right1_,_2865.Position_</TriggerVar>
+					<TriggerVar ID="812" Type="Vector" Name="" IsNull="false">_Right1_,_2865.Direction_</TriggerVar>
+					<TriggerVar ID="813" Type="Bool" Name="NoPhysicsVar4" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="814" Type="Object" Name="ObjectVar4" IsNull="true" />
+					<TriggerVar ID="815" Type="Bool" Name="ClearExistingVar4" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="816" Type="Trigger" Name="TriggerVar10" IsNull="false">127</TriggerVar>
+					<TriggerVar ID="817" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="818" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="819" Type="Vector" Name="" IsNull="false">_Right3_,_2867.Position_</TriggerVar>
+					<TriggerVar ID="820" Type="Vector" Name="" IsNull="false">_Right3_,_2867.Direction_</TriggerVar>
+					<TriggerVar ID="821" Type="Bool" Name="NoPhysicsVar5" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="822" Type="Object" Name="ObjectVar5" IsNull="true" />
+					<TriggerVar ID="823" Type="Bool" Name="ClearExistingVar5" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="824" Type="Trigger" Name="TriggerVar11" IsNull="false">127</TriggerVar>
+					<TriggerVar ID="825" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="826" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="827" Type="Vector" Name="" IsNull="false">_Right4_,_2868.Position_</TriggerVar>
+					<TriggerVar ID="828" Type="Vector" Name="" IsNull="false">_Right4_,_2868.Direction_</TriggerVar>
+					<TriggerVar ID="829" Type="Bool" Name="NoPhysicsVar7" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="830" Type="Object" Name="ObjectVar6" IsNull="true" />
+					<TriggerVar ID="831" Type="Bool" Name="ClearExistingVar7" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="832" Type="Trigger" Name="TriggerVar12" IsNull="false">127</TriggerVar>
+					<TriggerVar ID="833" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="834" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="835" Type="Vector" Name="" IsNull="false">_Right5_,_2870.Position_</TriggerVar>
+					<TriggerVar ID="836" Type="Vector" Name="" IsNull="false">_Right5_,_2870.Direction_</TriggerVar>
+					<TriggerVar ID="837" Type="Bool" Name="NoPhysicsVar8" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="838" Type="Object" Name="ObjectVar7" IsNull="true" />
+					<TriggerVar ID="839" Type="Bool" Name="ClearExistingVar8" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="840" Type="Trigger" Name="TriggerVar13" IsNull="false">127</TriggerVar>
+					<TriggerVar ID="841" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="842" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="843" Type="Vector" Name="" IsNull="false">_Left2_,_2872.Position_</TriggerVar>
+					<TriggerVar ID="844" Type="Vector" Name="" IsNull="false">_Left2_,_2872.Direction_</TriggerVar>
+					<TriggerVar ID="845" Type="Bool" Name="NoPhysicsVar9" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="846" Type="Object" Name="ObjectVar8" IsNull="true" />
+					<TriggerVar ID="847" Type="Bool" Name="ClearExistingVar9" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="848" Type="Trigger" Name="TriggerVar14" IsNull="false">138</TriggerVar>
+					<TriggerVar ID="849" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="850" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="851" Type="Vector" Name="" IsNull="false">_Left3_,_2873.Position_</TriggerVar>
+					<TriggerVar ID="852" Type="Vector" Name="" IsNull="false">_Left3_,_2873.Direction_</TriggerVar>
+					<TriggerVar ID="853" Type="Bool" Name="NoPhysicsVar10" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="854" Type="Object" Name="ObjectVar9" IsNull="true" />
+					<TriggerVar ID="855" Type="Bool" Name="ClearExistingVar10" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="856" Type="Trigger" Name="TriggerVar15" IsNull="false">138</TriggerVar>
+					<TriggerVar ID="857" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="858" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="859" Type="Vector" Name="" IsNull="false">_Right2_,_2866.Position_</TriggerVar>
+					<TriggerVar ID="860" Type="Vector" Name="" IsNull="false">_Right2_,_2866.Direction_</TriggerVar>
+					<TriggerVar ID="861" Type="Bool" Name="NoPhysicsVar11" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="862" Type="Object" Name="" IsNull="true" />
+					<TriggerVar ID="863" Type="Bool" Name="ClearExistingVar11" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="864" Type="Trigger" Name="TriggerVar16" IsNull="false">138</TriggerVar>
+					<TriggerVar ID="865" Type="ProtoObject" Name="" IsNull="false">env_creatures_SentinelArcMaze_01</TriggerVar>
+					<TriggerVar ID="866" Type="Player" Name="" IsNull="false">0</TriggerVar>
+					<TriggerVar ID="867" Type="Vector" Name="" IsNull="false">_Left5_,_2875.Position_</TriggerVar>
+					<TriggerVar ID="868" Type="Vector" Name="" IsNull="false">_Left5_,_2875.Direction_</TriggerVar>
+					<TriggerVar ID="869" Type="Bool" Name="NoPhysicsVar13" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="870" Type="Object" Name="ObjectVar10" IsNull="true" />
+					<TriggerVar ID="871" Type="Bool" Name="ClearExistingVar13" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="872" Type="Trigger" Name="TriggerVar17" IsNull="false">138</TriggerVar>
+					<TriggerVar ID="873" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+					<TriggerVar ID="874" Type="Time" Name="" IsNull="false">6000</TriggerVar>
+					<TriggerVar ID="876" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+					<TriggerVar ID="877" Type="Time" Name="" IsNull="false">4500</TriggerVar>
+					<TriggerVar ID="883" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+					<TriggerVar ID="884" Type="Time" Name="" IsNull="false">1000</TriggerVar>
+					<TriggerVar ID="885" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+					<TriggerVar ID="886" Type="Time" Name="" IsNull="false">1000</TriggerVar>
+					<TriggerVar ID="887" Type="Trigger" Name="TriggerVar19" IsNull="false">137</TriggerVar>
+					<TriggerVar ID="888" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+					<TriggerVar ID="889" Type="Time" Name="" IsNull="false">6000</TriggerVar>
+					<TriggerVar ID="891" Type="Trigger" Name="TriggerVar18" IsNull="false">143</TriggerVar>
+					<TriggerVar ID="892" Type="Trigger" Name="TriggerVar20" IsNull="false">137</TriggerVar>
+					<TriggerVar ID="894" Type="Unit" Name="DestroyUnitVar1" IsNull="true" />
+					<TriggerVar ID="895" Type="UnitList" Name="DestroyUnitListVar1" IsNull="true" />
+					<TriggerVar ID="896" Type="Squad" Name="DestroySquadVar1" IsNull="true" />
+					<TriggerVar ID="897" Type="SquadList" Name="DestroySquadListVar1" IsNull="true" />
+					<TriggerVar ID="898" Type="Object" Name="ObjectVar3" IsNull="true" />
+					<TriggerVar ID="900" Type="Unit" Name="DestroyUnitVar2" IsNull="true" />
+					<TriggerVar ID="901" Type="UnitList" Name="DestroyUnitListVar2" IsNull="true" />
+					<TriggerVar ID="902" Type="Squad" Name="DestroySquadVar2" IsNull="true" />
+					<TriggerVar ID="903" Type="SquadList" Name="DestroySquadListVar2" IsNull="true" />
+					<TriggerVar ID="904" Type="Object" Name="ObjectVar12" IsNull="true" />
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="41" Name="Script Start" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="50" Y="111" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="40" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">40</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="42" Name="Find Enemies" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="593" Y="107" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="41" Type="FilterAddDiplomacy" DBID="379" Version="1" CommentOut="false">
+								<Input Name="Diplomacy" SigID="2" Optional="false">41</Input>
+								<Input Name="ComparePlayer" SigID="3" Optional="true">42</Input>
+								<Input Name="CompareTeam" SigID="4" Optional="true">43</Input>
+								<Input Name="InvertFilter" SigID="5" Optional="true">44</Input>
+								<Output Name="EntityFilterSet" SigID="1" Optional="false">45</Output>
+							</Effect>
+							<Effect ID="138" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">887</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="126" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3051" Y="669" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="121" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">784</Input>
+								<Input Name="Player" SigID="3" Optional="false">785</Input>
+								<Input Name="Location" SigID="2" Optional="false">786</Input>
+								<Input Name="Facing" SigID="10" Optional="true">787</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">788</Input>
+								<Output Name="Object" SigID="4" Optional="true">789</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">791</Output>
+							</Effect>
+							<Effect ID="173" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">792</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="127" Name="newTrigger101" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3973" Y="529" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And>
+								<Condition ID="92" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+									<Input Name="CompareType" SigID="1" Optional="false">793</Input>
+									<Input Name="CompareTime" SigID="2" Optional="false">794</Input>
+								</Condition>
+							</And>
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="189" Type="Destroy" DBID="38" Version="4" CommentOut="false">
+								<Input Name="DestroyUnit" SigID="3" Optional="true">900</Input>
+								<Input Name="DestroyUnitList" SigID="4" Optional="true">901</Input>
+								<Input Name="DestroySquad" SigID="5" Optional="true">902</Input>
+								<Input Name="DestroySquadList" SigID="6" Optional="true">903</Input>
+								<Input Name="Object" SigID="7" Optional="true">904</Input>
+								<Input Name="ObjectList" SigID="8" Optional="true">790</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="128" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2633" Y="1348" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="116" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">800</Input>
+								<Input Name="Player" SigID="3" Optional="false">801</Input>
+								<Input Name="Location" SigID="2" Optional="false">802</Input>
+								<Input Name="Facing" SigID="10" Optional="true">803</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">804</Input>
+								<Output Name="Object" SigID="4" Optional="true">805</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">807</Output>
+							</Effect>
+							<Effect ID="184" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">808</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="129" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3001" Y="441" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="117" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">809</Input>
+								<Input Name="Player" SigID="3" Optional="false">810</Input>
+								<Input Name="Location" SigID="2" Optional="false">811</Input>
+								<Input Name="Facing" SigID="10" Optional="true">812</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">813</Input>
+								<Output Name="Object" SigID="4" Optional="true">814</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">815</Output>
+							</Effect>
+							<Effect ID="175" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">816</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="130" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3421" Y="245" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="120" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">817</Input>
+								<Input Name="Player" SigID="3" Optional="false">818</Input>
+								<Input Name="Location" SigID="2" Optional="false">819</Input>
+								<Input Name="Facing" SigID="10" Optional="true">820</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">821</Input>
+								<Output Name="Object" SigID="4" Optional="true">822</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">823</Output>
+							</Effect>
+							<Effect ID="174" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">824</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="131" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3420" Y="534" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="121" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">825</Input>
+								<Input Name="Player" SigID="3" Optional="false">826</Input>
+								<Input Name="Location" SigID="2" Optional="false">827</Input>
+								<Input Name="Facing" SigID="10" Optional="true">828</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">829</Input>
+								<Output Name="Object" SigID="4" Optional="true">830</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">831</Output>
+							</Effect>
+							<Effect ID="176" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">832</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="132" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3438" Y="743" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="122" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">833</Input>
+								<Input Name="Player" SigID="3" Optional="false">834</Input>
+								<Input Name="Location" SigID="2" Optional="false">835</Input>
+								<Input Name="Facing" SigID="10" Optional="true">836</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">837</Input>
+								<Output Name="Object" SigID="4" Optional="true">838</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">790</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">839</Output>
+							</Effect>
+							<Effect ID="177" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">840</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="133" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3097" Y="894" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="117" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">841</Input>
+								<Input Name="Player" SigID="3" Optional="false">842</Input>
+								<Input Name="Location" SigID="2" Optional="false">843</Input>
+								<Input Name="Facing" SigID="10" Optional="true">844</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">845</Input>
+								<Output Name="Object" SigID="4" Optional="true">846</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">847</Output>
+							</Effect>
+							<Effect ID="183" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">848</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="134" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3100" Y="1092" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="120" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">849</Input>
+								<Input Name="Player" SigID="3" Optional="false">850</Input>
+								<Input Name="Location" SigID="2" Optional="false">851</Input>
+								<Input Name="Facing" SigID="10" Optional="true">852</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">853</Input>
+								<Output Name="Object" SigID="4" Optional="true">854</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">855</Output>
+							</Effect>
+							<Effect ID="182" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">856</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="135" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3095" Y="1300" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="116" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">857</Input>
+								<Input Name="Player" SigID="3" Optional="false">858</Input>
+								<Input Name="Location" SigID="2" Optional="false">859</Input>
+								<Input Name="Facing" SigID="10" Optional="true">860</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">861</Input>
+								<Output Name="Object" SigID="4" Optional="true">862</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">863</Output>
+							</Effect>
+							<Effect ID="181" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">864</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="136" Name="newTrigger99" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3077" Y="1498" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="122" Type="CreateObject" DBID="35" Version="6" CommentOut="false">
+								<Input Name="ProtoObject" SigID="1" Optional="false">865</Input>
+								<Input Name="Player" SigID="3" Optional="false">866</Input>
+								<Input Name="Location" SigID="2" Optional="false">867</Input>
+								<Input Name="Facing" SigID="10" Optional="true">868</Input>
+								<Input Name="NoPhysics" SigID="11" Optional="true">869</Input>
+								<Output Name="Object" SigID="4" Optional="true">870</Output>
+								<Output Name="AddToObjectList" SigID="8" Optional="true">806</Output>
+								<Output Name="ClearExisting" SigID="9" Optional="true">871</Output>
+							</Effect>
+							<Effect ID="180" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">872</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="137" Name="newTrigger157" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1678" Y="190" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And>
+								<Condition ID="122" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+									<Input Name="CompareType" SigID="1" Optional="false">873</Input>
+									<Input Name="CompareTime" SigID="2" Optional="false">874</Input>
+								</Condition>
+							</And>
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="185" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">891</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="138" Name="newTrigger101" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3811" Y="1127" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And>
+								<Condition ID="92" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+									<Input Name="CompareType" SigID="1" Optional="false">876</Input>
+									<Input Name="CompareTime" SigID="2" Optional="false">877</Input>
+								</Condition>
+							</And>
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="188" Type="Destroy" DBID="38" Version="4" CommentOut="false">
+								<Input Name="DestroyUnit" SigID="3" Optional="true">894</Input>
+								<Input Name="DestroyUnitList" SigID="4" Optional="true">895</Input>
+								<Input Name="DestroySquad" SigID="5" Optional="true">896</Input>
+								<Input Name="DestroySquadList" SigID="6" Optional="true">897</Input>
+								<Input Name="Object" SigID="7" Optional="true">898</Input>
+								<Input Name="ObjectList" SigID="8" Optional="true">806</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="139" Name="wait to spawn 2nd one from this side" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2553" Y="515" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And>
+								<Condition ID="125" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+									<Input Name="CompareType" SigID="1" Optional="false">883</Input>
+									<Input Name="CompareTime" SigID="2" Optional="false">884</Input>
+								</Condition>
+							</And>
+						</TriggerConditions>
+						<TriggerEffectsOnTrue />
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="140" Name="wait to spawn a second one" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2321" Y="952" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And>
+								<Condition ID="125" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+									<Input Name="CompareType" SigID="1" Optional="false">885</Input>
+									<Input Name="CompareTime" SigID="2" Optional="false">886</Input>
+								</Condition>
+							</And>
+						</TriggerConditions>
+						<TriggerEffectsOnTrue />
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="143" Name="newTrigger157" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2321" Y="702" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And>
+								<Condition ID="122" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+									<Input Name="CompareType" SigID="1" Optional="false">888</Input>
+									<Input Name="CompareTime" SigID="2" Optional="false">889</Input>
+								</Condition>
+							</And>
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="186" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+								<Input Name="Trigger" SigID="1" Optional="false">892</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="132" NextTriggerID="129" NextConditionID="128" NextEffectID="130" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="10" Type="Sound" Name="" IsNull="false">set_switch_music_shield_int</TriggerVar>
+			<TriggerVar ID="11" Type="Bool" Name="QueueVar2" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="276" Y="248" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+					<Effect ID="9" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">10</Input>
+						<Input Name="Queue" SigID="3" Optional="true">11</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="132" NextTriggerID="129" NextConditionID="128" NextEffectID="130" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+					<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+					<TriggerVar ID="10" Type="Sound" Name="" IsNull="false">set_switch_music_shield_int</TriggerVar>
+					<TriggerVar ID="11" Type="Bool" Name="QueueVar2" IsNull="true">False</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="276" Y="248" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">0</Input>
+								<Input Name="Queue" SigID="3" Optional="true">1</Input>
+							</Effect>
+							<Effect ID="9" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">10</Input>
+								<Input Name="Queue" SigID="3" Optional="true">11</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<NextID>5224</NextID>
+	<EditorOnlyData>
+		<HelperAreas>
+			<HelperAreaObject>
+				<Name>Right1</Name>
+				<ID>2865</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>578.08313,1.61039996,395.671509</Position>
+				<Direction>-0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Right2</Name>
+				<ID>2866</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>578.546082,1.61039996,442.406403</Position>
+				<Direction>-0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Right3</Name>
+				<ID>2867</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>577.196411,1.65960002,489.817993</Position>
+				<Direction>-0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Right4</Name>
+				<ID>2868</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>576.866272,1.61039996,536.442627</Position>
+				<Direction>-0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Right5</Name>
+				<ID>2870</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>577.262085,1.61039996,630.328979</Position>
+				<Direction>-0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Left1</Name>
+				<ID>2871</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>446.569,1.61039996,630.648682</Position>
+				<Direction>0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Left2</Name>
+				<ID>2872</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>447.061707,1.61039996,583.968872</Position>
+				<Direction>0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Left3</Name>
+				<ID>2873</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>445.544495,1.61039996,489.554596</Position>
+				<Direction>0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Left4</Name>
+				<ID>2874</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>446.08609,1.61039996,441.159088</Position>
+				<Direction>0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Left5</Name>
+				<ID>2875</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>445.118286,1.61039996,395.359711</Position>
+				<Direction>0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area5181</Name>
+				<ID>5181</ID>
+				<Group>7</Group>
+				<Radius>150</Radius>
+				<Position>144.786194,-1.17209995,245.044205</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,246,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area5182</Name>
+				<ID>5182</ID>
+				<Group>7</Group>
+				<Radius>150</Radius>
+				<Position>876.935181,2.43589997,779.841187</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area5183</Name>
+				<ID>5183</ID>
+				<Group>7</Group>
+				<Radius>150</Radius>
+				<Position>310.398285,-12.8746004,164.930099</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,246,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area5184</Name>
+				<ID>5184</ID>
+				<Group>7</Group>
+				<Radius>150</Radius>
+				<Position>728.311829,-8.96860027,870.554077</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,0</Color>
+			</HelperAreaObject>
+		</HelperAreas>
+		<HelperAreaBoxes />
+		<HelpePositions>
+			<HelpePositionObject>
+				<Name>Position1208</Name>
+				<ID>1208</ID>
+				<Group>-1</Group>
+				<Position>512,62.8093987,529.458923</Position>
+			</HelpePositionObject>
+		</HelpePositions>
+		<EditorOnlyObjects />
+	</EditorOnlyData>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>1024</SimBoundsMaxX>
+	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
+	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+	<ScenarioWorld>SWI</ScenarioWorld>
+	<AllowVeterancy>true</AllowVeterancy>
+	<GlobalExcludeObjects />
+</Scenario>
