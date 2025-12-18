@@ -1,0 +1,6 @@
+# Halo Wars Coordinate Guider Requirements
+# This project uses only Python standard library (Tkinter)
+# No external dependencies required
+
+# Python 3.x is required (Tkinter is included with standard Python installations)
+
